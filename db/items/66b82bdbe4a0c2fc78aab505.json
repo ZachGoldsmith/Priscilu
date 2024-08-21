@@ -1,0 +1,93 @@
+{
+"_id": "66b82bdbe4a0c2fc78aab505",
+"_name": "item_container_lopouch",
+"_parent": "5795f317245977243854e041",
+"_type": "Item",
+"_props":{
+"Name": "item_container_lopouch",
+"ShortName": "item_container_lopouch",
+"Description": "item_container_lopouch",
+"Weight": 0.187,
+"BackgroundColor": "blue",
+"Width": 2,
+"Height": 1,
+"StackMaxSize": 1,
+"ItemSound": "container_pouch",
+"Prefab":{
+"path": "Containers/PrisciluMedPack.bundle",
+"rcid": ""
+},
+"UsePrefab":{
+"path": "",
+"rcid": ""
+},
+"StackObjectsCount": 1,
+"NotShownInSlot": false,
+"ExaminedByDefault": true,
+"ExamineTime": 1,
+"IsUndiscardable": false,
+"IsUnsaleable": false,
+"IsUnbuyable": false,
+"IsUngivable": false,
+"IsLockedafterEquip": false,
+"QuestItem": false,
+"LootExperience": 30,
+"ExamineExperience": 10,
+"HideEntrails": true,
+"RepairCost": 0,
+"RepairSpeed": 0,
+"ExtraSizeLeft": 0,
+"ExtraSizeRight": 0,
+"ExtraSizeUp": 0,
+"ExtraSizeDown": 0,
+"ExtraSizeForceAdd": false,
+"MergesWithChildren": false,
+"CanSellOnRagfair": false,
+"CanRequireOnRagfair": false,
+"ConflictingItems":[],
+"Unlootable": false,
+"UnlootableFromSlot": "FirstPrimaryWeapon",
+"UnlootableFromSide":[],
+"AnimationVariantsNumber": 0,
+"DiscardingBlock": false,
+"RagFairCommissionModifier": 1,
+"IsAlwaysAvailableForInsurance": false,
+"DiscardLimit": 0,
+"DropSoundType": "None",
+"InsuranceDisabled": false,
+"QuestStashMaxCount": 0,
+"IsSpecialSlotOnly": false,
+"IsUnremovable": false,
+"Grids":[
+{
+"_name": "main",
+"_id": "66b83d00575f7b42d2fa4644",
+"_parent": "66b82bdbe4a0c2fc78aab505",
+"_props":{
+"filters":[
+{
+"Filter":[
+    "543be5664bdc2dd4348b4569",
+    "57864c8c245977548867e7f1"
+],
+"ExcludedFilter":[]
+}
+],
+"cellsH": 10,
+"cellsV": 10,
+"minCount": 0,
+"maxCount": 0,
+"maxWeight": 0,
+"isSortingTable": false
+},
+"_proto": "55d329c24bdc2d892f8b4567"
+}
+],
+"Slots":[],
+"CanPutIntoDuringTheRaid": true,
+"CantRemoveFromSlotsDuringRaid":[],
+"TagColor": 0,
+"TagName": ""
+},
+"_proto": "577e1c9d2459773cd707c525"
+}

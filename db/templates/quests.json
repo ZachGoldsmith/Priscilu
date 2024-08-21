@@ -1,0 +1,3325 @@
+{
+  "Priscilu_QUEST_1": {
+    "QuestName": "Uncomfortable Situations",
+    "_id": "Priscilu_QUEST_1",
+    "canShowNotificationsInGame": true,
+    "acceptPlayerMessage": "Priscilu_QUEST_1 acceptPlayerMessage",
+    "changeQuestMessageText": "Priscilu_QUEST_1 changeQuestMessageText",
+    "completePlayerMessage": "Priscilu_QUEST_1 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "Priscilu_QUEST_1 TASK",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Usec",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "id": "Priscilu_QUEST_1 TASK1"
+                  }
+                }
+              ]
+            },
+            "id": "Priscilu_QUEST_1 TASK1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "id": "Priscilu_QUEST_1 TASK2",
+            "index": 3,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "parentId": "",
+            "isEncoded": false,
+            "onlyFoundInRaid": true,
+            "dynamicLocale": false,
+            "target": [
+              "59f32c3b86f77472a31742f0"
+            ],
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "5981a09b86f77455537a65ac",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 5,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dynamicLocale": false,
+            "id": "Priscilu_QUEST_1 TEXT",
+            "index": 1,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Priscilu_WELCOME",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "Priscilu_QUEST_1 description",
+    "failMessageText": "Priscilu_QUEST_1 failMessageText",
+    "name": "Priscilu_QUEST_1 name",
+    "note": "Priscilu_QUEST_1 note",
+    "questStatus": {},
+    "traderId": "66c0d4fc713f0ea9c8e7368e",
+    "location": "any",
+    "image": "/files/quest/icon/Priscilu_Quest_1.jpg",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "Priscilu_QUEST_1 startedMessageText",
+    "successMessageText": "Priscilu_QUEST_1 successMessageText",
+    "templateId": "Priscilu_QUEST_1",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "10000",
+          "id": "5fe305df8a67d12f5f24c8aa",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "100000",
+          "id": "5449016a4bdc2d6f028b456f",
+          "type": "Item",
+          "index": 1,
+          "target": "6492e44bf4287b13040fca56",
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca56",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 100000
+              }
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "id": "6357c98711fb55120211f7e1",
+          "type": "Item",
+          "index": 2,
+          "target": "6492e44bf4287b13040fca5a",
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca5a",
+              "_tpl": "6357c98711fb55120211f7e1",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        },
+        {
+          "value": "5",
+          "id": "5ede474b0c226a66f5402622",
+          "type": "Item",
+          "index": 3,
+          "target": "6492e44bf4287b13040fca5a",
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca5a",
+              "_tpl": "5ede474b0c226a66f5402622",
+              "upd": {
+                "StackObjectsCount": 5
+              }
+            }
+          ]
+        },
+        {
+          "value": "0.25",
+          "id": "60c89c0c80b2027f403dd992",
+          "type": "TraderStanding",
+          "index": 4,
+          "target": "Priscilu"
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  },
+  "Priscilu_QUEST_2": {
+    "QuestName": "Dealmaker",
+    "_id": "Priscilu_QUEST_2",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "0z27351e86f77445741ytrez",
+                    "target": "Savage",
+                    "savageRole": [
+                      "bossBully"
+                    ],
+                    "value": 1
+                  }
+                }
+              ],
+              "id": "3ke24qgo6fln4jdcuwbrlsqz"
+            },
+            "id": "Priscilu_QUEST_2 TASK1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "avaibleAfter": 0,
+            "dynamicLocale": false,
+            "id": "cloptuomeqt3t19fur3e5mwz",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Priscilu_QUEST_1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "name": "Priscilu_QUEST_2 name",
+    "description": "Priscilu_QUEST_2 description",
+    "image": "/files/quest/icon/64a2c8e0e4c3b3082302e5bd.jpg",
+    "traderId": "66c0d4fc713f0ea9c8e7368e",
+    "type": "Elimination",
+    "side": "Pmc",
+    "isKey": false,
+    "templateId": "Priscilu_QUEST_2",
+    "location": "56f40101d2720b2a4d8b45d6",
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "Priscilu_QUEST_2 startedMessageText",
+    "successMessageText": "Priscilu_QUEST_2 successMessageText",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "0.04",
+          "id": "Priscilu_QUEST_2_Reward_0",
+          "type": "TraderStanding",
+          "target": "Priscilu",
+          "index": 0
+        },
+        {
+          "id": "Priscilu_QUEST_2_Reward_1",
+          "index": 1,
+          "type": "Experience",
+          "value": 12000
+        },
+        {
+          "id": "floz79cf86f7745f5c38yuta",
+          "index": 2,
+          "items": [
+            {
+              "_id": "04250143074658303734b40b",
+              "_tpl": "5447a9cd4bdc2dbd208b4567",
+              "upd": {
+                "FireMode": {
+                  "FireMode": "single"
+                },
+                "Repairable": {
+                  "Durability": 100,
+                  "MaxDurability": 100
+                }
+              }
+            },
+            {
+              "_id": "042501430797855353051f26",
+              "_tpl": "59db3a1d86f77429e05b4e92",
+              "slotId": "mod_pistol_grip",
+              "parentId": "04250143074658303734b40b"
+            },
+            {
+              "_id": "0425014307680841702e6b24",
+              "_tpl": "5c6d46132e221601da357d56",
+              "slotId": "mod_magazine",
+              "parentId": "04250143074658303734b40b"
+            },
+            {
+              "_id": "042501430776281717320369",
+              "_tpl": "5d4405aaa4b9361e6a4e6bd3",
+              "slotId": "mod_reciever",
+              "parentId": "04250143074658303734b40b"
+            },
+            {
+              "_id": "0425014307683228720d7b54",
+              "_tpl": "570fd721d2720bc5458b4596",
+              "slotId": "mod_scope",
+              "parentId": "042501430776281717320369"
+            },
+            {
+              "_id": "04250143076258416849c905",
+              "_tpl": "55d3632e4bdc2d972f8b4569",
+              "slotId": "mod_barrel",
+              "parentId": "042501430776281717320369"
+            },
+            {
+              "_id": "0425014307558609256fdba7",
+              "_tpl": "59bffc1f86f77435b128b872",
+              "slotId": "mod_muzzle",
+              "parentId": "04250143076258416849c905"
+            },
+            {
+              "_id": "042501430743668995828142",
+              "_tpl": "59bffbb386f77435b379b9c2",
+              "slotId": "mod_muzzle",
+              "parentId": "0425014307558609256fdba7"
+            },
+            {
+              "_id": "0425014307948408035559ff",
+              "_tpl": "56eabcd4d2720b66698b4574",
+              "slotId": "mod_gas_block",
+              "parentId": "04250143076258416849c905"
+            },
+            {
+              "_id": "04250143077170366631da3c",
+              "_tpl": "6357c98711fb55120211f7e1",
+              "slotId": "mod_launcher",
+              "parentId": "04250143076258416849c905"
+            },
+            {
+              "_id": "0425014307582981350aecd3",
+              "_tpl": "5d122e7bd7ad1a07102d6d7f",
+              "slotId": "mod_handguard",
+              "parentId": "042501430776281717320369"
+            },
+            {
+              "_id": "0425014307895576168df6db",
+              "_tpl": "5bc09a30d4351e00367fb7c8",
+              "slotId": "mod_sight_front",
+              "parentId": "0425014307582981350aecd3"
+            },
+            {
+              "_id": "0425014307762993069555c8",
+              "_tpl": "56def37dd2720bec348b456a",
+              "slotId": "mod_tactical_002",
+              "parentId": "0425014307582981350aecd3"
+            },
+            {
+              "_id": "04250143074212988552982c",
+              "_tpl": "5bc09a18d4351e003562b68e",
+              "slotId": "mod_sight_rear",
+              "parentId": "042501430776281717320369"
+            },
+            {
+              "_id": "042501430795484098232034",
+              "_tpl": "5c793fb92e221644f31bfb64",
+              "slotId": "mod_stock",
+              "parentId": "04250143074658303734b40b"
+            },
+            {
+              "_id": "0425014307509302742be62e",
+              "_tpl": "56eabf3bd2720b75698b4569",
+              "slotId": "mod_stock_000",
+              "parentId": "042501430795484098232034"
+            },
+            {
+              "_id": "0425014307838876362a93c1",
+              "_tpl": "58d2912286f7744e27117493",
+              "slotId": "mod_stock",
+              "parentId": "0425014307509302742be62e"
+            },
+            {
+              "_id": "04250143075829507613ca0f",
+              "_tpl": "5d44334ba4b9362b346d1948",
+              "slotId": "mod_charge",
+              "parentId": "04250143074658303734b40b"
+            }
+          ],
+          "target": "04250143074658303734b40b",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "value": "200000",
+          "id": "5fe305d9c646836c3b6fc562",
+          "type": "Item",
+          "index": 3,
+          "target": "6492e44bf4287b13040fca56",
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca56",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 200000
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "Priscilu_QUEST_3": {
+    "QuestName": "Difficult Decision1!",
+    "_id": "Priscilu_QUEST_3",
+    "templateId": "Priscilu_QUEST_3",
+    "canShowNotificationsInGame": true,
+    "name": "Priscilu_QUEST_3 name",
+    "description": "Priscilu_QUEST_3 description",
+    "note": "Priscilu_QUEST_3 note",
+    "acceptPlayerMessage": "Priscilu_QUEST_3 acceptPlayerMessage",
+    "changeQuestMessageText": "Priscilu_QUEST_3 changeQuestMessageText",
+    "completePlayerMessage": "Priscilu_QUEST_3 completePlayerMessage",
+    "failMessageText": "Priscilu_QUEST_3 failMessageText",
+    "startedMessageText": "Priscilu_QUEST_3 startedMessageText",
+    "successMessageText": "Priscilu_QUEST_3 successMessageText",
+    "image": "/files/quest/icon/Priscilu_Quest_3.jpg",
+    "questStatus": {},
+    "traderId": "66c0d4fc713f0ea9c8e7368e",
+    "location": "any",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "side": "Pmc",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "bodyPart": [
+                      "Head",
+                      "Chest",
+                      "Stomach",
+                      "LeftArm",
+                      "RightArm",
+                      "LeftLeg",
+                      "RightLeg"
+                    ],
+                    "compareMethod": ">=",
+                    "id": "Priscilu_QUEST_3 TASK1_0",
+                    "target": "Savage",
+                    "savageRole": [
+                      "bossTagilla"
+                    ],
+                    "value": "1",
+                    "weapon": [
+                      "5a2a57cfc4a2826c6e06d44a",
+                      "5a0c27731526d80618476ac4",
+                      "58d3db5386f77426186285a0",
+                      "5e340dcdcb6d5863cc5e5efb",
+                      "5e32f56fcb6d5863cc5e5ee4",
+                      "5448be9a4bdc2dfd2f8b456a",
+                      "5710c24ad2720bc3458b45a3",
+                      "618a431df1eb8e24b8741deb",
+                      "617fd91e5539a84ec44ce155",
+                      "639c3fbbd0446708ee622ee9",
+                      "639af924d0446708ee62294e",
+                      "5648b62b4bdc2d9d488b4585"
+                    ]
+                  }
+                }
+              ],
+              "id": "Priscilu_QUEST_3 TASK1_1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Priscilu_QUEST_3 TASK1",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "5981a09b86f77455537a65ac",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 7,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dynamicLocale": false,
+            "id": "Priscilu_QUEST_3_REQUIREDQUEST",
+            "index": 1,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Priscilu_QUEST_2",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "30000",
+          "id": "5fe305df8a67d12f5f24c8aa",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "200000",
+          "id": "5fe305d9c646836c3b6fc562",
+          "type": "Item",
+          "index": 1,
+          "target": "6492e44bf4287b13040fca56",
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca56",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 200000
+              }
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "id": "5c94bbff86f7747ee735c08f",
+          "type": "Item",
+          "index": 1,
+          "target": "6492e44bf4287b13040fca56",
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca56",
+              "_tpl": "5c94bbff86f7747ee735c08f",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        },
+        {
+          "value": "0.25",
+          "id": "60c89c0c80b2027f403dd992",
+          "type": "TraderStanding",
+          "index": 5,
+          "target": "Priscilu"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "Priscilu_QUEST_5": {
+    "QuestName": "Difficult Decision2!",
+    "_id": "Priscilu_QUEST_5",
+    "templateId": "Priscilu_QUEST_5",
+    "canShowNotificationsInGame": true,
+    "name": "Priscilu_QUEST_5 name",
+    "description": "Priscilu_QUEST_5 description",
+    "note": "Priscilu_QUEST_5 note",
+    "acceptPlayerMessage": "Priscilu_QUEST_5 acceptPlayerMessage",
+    "changeQuestMessageText": "Priscilu_QUEST_5 changeQuestMessageText",
+    "completePlayerMessage": "Priscilu_QUEST_5 completePlayerMessage",
+    "failMessageText": "Priscilu_QUEST_5 failMessageText",
+    "startedMessageText": "Priscilu_QUEST_5 startedMessageText",
+    "successMessageText": "Priscilu_QUEST_5 successMessageText",
+    "image": "/files/quest/icon/Priscilu_Quest_5.jpg",
+    "questStatus": {},
+    "traderId": "66c0d4fc713f0ea9c8e7368e",
+    "location": "any",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "side": "Pmc",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "bodyPart": [
+                      "Head",
+                      "Chest",
+                      "Stomach",
+                      "LeftArm",
+                      "RightArm",
+                      "LeftLeg",
+                      "RightLeg"
+                    ],
+                    "compareMethod": ">=",
+                    "id": "Priscilu_QUEST_5 TASK1_0",
+                    "target": "Savage",
+                    "savageRole": [
+                      "bossKilla"
+                    ],
+                    "value": "1",
+                    "weapon": [
+                      "5a2a57cfc4a2826c6e06d44a",
+                      "5a0c27731526d80618476ac4",
+                      "58d3db5386f77426186285a0",
+                      "5e340dcdcb6d5863cc5e5efb",
+                      "5e32f56fcb6d5863cc5e5ee4",
+                      "5448be9a4bdc2dfd2f8b456a",
+                      "5710c24ad2720bc3458b45a3",
+                      "618a431df1eb8e24b8741deb",
+                      "617fd91e5539a84ec44ce155",
+                      "639c3fbbd0446708ee622ee9",
+                      "639af924d0446708ee62294e",
+                      "5648b62b4bdc2d9d488b4585"
+                    ]
+                  }
+                }
+              ],
+              "id": "Priscilu_QUEST_5 TASK1_1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Priscilu_QUEST_5 TASK1",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "5981a09b86f77455537a65ac",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 9,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dynamicLocale": false,
+            "id": "Priscilu_QUEST_5_REQUIREDQUEST",
+            "index": 1,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Priscilu_QUEST_3",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "30000",
+          "id": "5fe305df8a67d12f5f24c8aa",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "150000",
+          "id": "5fe305d9c646836c3b6fc562",
+          "type": "Item",
+          "index": 1,
+          "target": "6492e44bf4287b13040fca56",
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca56",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 150000
+              }
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "id": "62e7e7bbe6da9612f743f1e0",
+          "type": "Item",
+          "index": 1,
+          "target": "6492e44bf4287b13040fca56",
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca56",
+              "_tpl": "62e7e7bbe6da9612f743f1e0",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        },
+        {
+          "value": "0.25",
+          "id": "60c89c0c80b2027f403dd992",
+          "type": "TraderStanding",
+          "index": 5,
+          "target": "Priscilu"
+        }
+      ],
+      "Fail": []
+    }
+  },
+  "Priscilu_QUEST_15": {
+    "QuestName": "The Knight's Mask Falls",
+    "_id": "Priscilu_QUEST_15",
+    "acceptPlayerMessage": "Priscilu_QUEST_15 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "Priscilu_QUEST_15 changeQuestMessageText",
+    "completePlayerMessage": "Priscilu_QUEST_15 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "Priscilu_QUEST_15 TASK1_0",
+                "resetOnSessionEnd": false,
+                "savageRole": [
+                  "bossKnight"
+                ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "Priscilu_QUEST_15 TASK1_1"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "Priscilu_QUEST_15 TASK1",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "Priscilu_QUEST_15 TASK2_0",
+                "resetOnSessionEnd": false,
+                "savageRole": [
+                  "followerBigPipe"
+                ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "Priscilu_QUEST_15 TASK2_1"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "Priscilu_QUEST_15 TASK2",
+          "index": 1,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "Priscilu_QUEST_15 TASK3_0",
+                "resetOnSessionEnd": false,
+                "savageRole": [
+                  "followerBirdEye"
+                ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "Priscilu_QUEST_15 TASK3_1"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "Priscilu_QUEST_15 TASK3",
+          "index": 2,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dynamicLocale": false,
+            "id": "Priscilu_QUEST_15_REQUIREDQUEST",
+            "index": 1,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Priscilu_QUEST_5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "Priscilu_QUEST_15 declinePlayerMessage",
+    "description": "Priscilu_QUEST_15 description",
+    "failMessageText": "Priscilu_QUEST_15 failMessageText",
+    "image": "/files/quest/icon/61abc9240b56a53df32c6865.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "Priscilu_QUEST_15 name",
+    "note": "Priscilu_QUEST_15 note",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "Priscilu_QUEST_15_Reward_0",
+          "index": 0,
+          "type": "Experience",
+          "value": 35000
+        },
+        {
+          "findInRaid": true,
+          "id": "Priscilu_QUEST_15_Reward_1",
+          "index": 1,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_15_Reward_1_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 230000
+              }
+            }
+          ],
+          "target": "Priscilu_QUEST_15_Reward_1_0",
+          "type": "Item",
+          "value": "230000"
+        },
+        {
+          "findInRaid": true,
+          "id": "Priscilu_QUEST_15_Reward_2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_15_Reward_2_0",
+              "_tpl": "5d235bb686f77443f4331278",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "Priscilu_QUEST_15_Reward_2_0",
+          "type": "Item",
+          "unknown": true,
+          "value": "1"
+        },
+        {
+          "findInRaid": true,
+          "id": "Priscilu_QUEST_15_Reward_3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "04171844197284378311c169",
+              "_tpl": "5fc22d7c187fea44d52eda44",
+              "upd": {
+                "FireMode": {
+                  "FireMode": "single"
+                },
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "0417184419456764533f5f41",
+              "_tpl": "6113cce3d92c473c770200c7",
+              "slotId": "mod_pistol_grip",
+              "parentId": "04171844197284378311c169"
+            },
+            {
+              "_id": "0417184419473991014a996c",
+              "_tpl": "5fc23426900b1d5091531e15",
+              "slotId": "mod_magazine",
+              "parentId": "04171844197284378311c169"
+            },
+            {
+              "_id": "04171844192172567954392e",
+              "_tpl": "5c793fc42e221600114ca25d",
+              "slotId": "mod_stock_001",
+              "parentId": "04171844197284378311c169"
+            },
+            {
+              "_id": "041718441994972616296bec",
+              "_tpl": "5d4406a8a4b9361e4f6eb8b7",
+              "slotId": "mod_stock_000",
+              "parentId": "04171844192172567954392e"
+            },
+            {
+              "_id": "0417184419695672892fa61d",
+              "_tpl": "5fc278107283c4046c581489",
+              "slotId": "mod_reciever",
+              "parentId": "04171844197284378311c169"
+            },
+            {
+              "_id": "04171844198129078558932c",
+              "_tpl": "61713cc4d8e3106d9806c109",
+              "slotId": "mod_scope",
+              "parentId": "0417184419695672892fa61d"
+            },
+            {
+              "_id": "0417184419508671456f1ff1",
+              "_tpl": "5aa66be6e5b5b0214e506e97",
+              "slotId": "mod_scope_000",
+              "parentId": "04171844198129078558932c"
+            },
+            {
+              "_id": "041718441942005531776c06",
+              "_tpl": "58d2664f86f7747fec5834f6",
+              "slotId": "mod_scope_001",
+              "parentId": "04171844198129078558932c"
+            },
+            {
+              "_id": "0417184419828457478887ab",
+              "_tpl": "58d268fc86f774111273f8c2",
+              "slotId": "mod_scope",
+              "parentId": "041718441942005531776c06"
+            },
+            {
+              "_id": "04171844198589208104c4d4",
+              "_tpl": "5fc23678ab884124df0cd590",
+              "slotId": "mod_barrel",
+              "parentId": "0417184419695672892fa61d"
+            },
+            {
+              "_id": "0417184419531509607479e6",
+              "_tpl": "62812081d23f207deb0ab216",
+              "slotId": "mod_muzzle",
+              "parentId": "04171844198589208104c4d4"
+            },
+            {
+              "_id": "041718441968488887952e6f",
+              "_tpl": "62811fa609427b40ab14e765",
+              "slotId": "mod_muzzle",
+              "parentId": "0417184419531509607479e6"
+            },
+            {
+              "_id": "041718441938639263751d40",
+              "_tpl": "5fc2360f900b1d5091531e19",
+              "slotId": "mod_gas_block",
+              "parentId": "04171844198589208104c4d4"
+            },
+            {
+              "_id": "0417184419473363675e7d35",
+              "_tpl": "5fc235db2770a0045c59c683",
+              "slotId": "mod_handguard",
+              "parentId": "0417184419695672892fa61d"
+            },
+            {
+              "_id": "041718441994037393752624",
+              "_tpl": "6269545d0e57f218e4548ca2",
+              "slotId": "mod_mount_000",
+              "parentId": "0417184419473363675e7d35"
+            },
+            {
+              "_id": "0417184419448826287ef4e4",
+              "_tpl": "6269545d0e57f218e4548ca2",
+              "slotId": "mod_mount_002",
+              "parentId": "0417184419473363675e7d35"
+            },
+            {
+              "_id": "04171844191400674657b84e",
+              "_tpl": "6272379924e29f06af4d5ecb",
+              "slotId": "mod_tactical",
+              "parentId": "0417184419448826287ef4e4"
+            },
+            {
+              "_id": "0417184419555953213f268b",
+              "_tpl": "5b7be4895acfc400170e2dd5",
+              "slotId": "mod_foregrip",
+              "parentId": "0417184419473363675e7d35"
+            },
+            {
+              "_id": "041718441916763095098690",
+              "_tpl": "5c1cd46f2e22164bef5cfedb",
+              "slotId": "mod_foregrip",
+              "parentId": "0417184419555953213f268b"
+            }
+          ],
+          "target": "04171844197284378311c169",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "findInRaid": true,
+          "id": "Priscilu_QUEST_15_Reward_4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_15_Reward_4_0",
+              "_tpl": "5fc23426900b1d5091531e15",
+              "upd": {
+                "StackObjectsCount": 2
+              }
+            }
+          ],
+          "target": "Priscilu_QUEST_15_Reward_4_0",
+          "type": "Item",
+          "value": "2"
+        },
+        {
+          "findInRaid": true,
+          "id": "Priscilu_QUEST_15_Reward_5",
+          "index": 5,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_15_Reward_5_0",
+              "_tpl": "5fc382a9d724d907e2077dab",
+              "upd": {
+                "StackObjectsCount": 60
+              }
+            }
+          ],
+          "target": "Priscilu_QUEST_15_Reward_5_0",
+          "type": "Item",
+          "value": "60"
+        },
+        {
+          "id": "Priscilu_QUEST_15_Reward_6",
+          "index": 6,
+          "target": "Priscilu",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Priscilu_QUEST_15 startedMessageText",
+    "successMessageText": "Priscilu_QUEST_15 successMessageText",
+    "traderId": "66c0d4fc713f0ea9c8e7368e",
+    "type": "Elimination"
+  },
+  "Priscilu_QUEST_6": {
+    "QuestName": "Pistol Master",
+    "_id": "Priscilu_QUEST_6",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "Priscilu_QUEST_6 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "Priscilu_QUEST_6_TASK1_0",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Savage",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "weapon": [
+                      "6193a720f8ee7e52e42109ed"
+                    ],
+                    "id": "Priscilu_QUEST_6_TASK1_1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "target": [
+                      "Interchange"
+                    ],
+                    "id": "Priscilu_QUEST_6_TASK1_2"
+                  }
+                }
+              ]
+            },
+            "id": "Priscilu_QUEST_6_TASK1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "Priscilu_QUEST_6_TASK1",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 5,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          }
+        }
+      ],
+      "Fail": []
+    },
+    "description": "Priscilu_QUEST_6 description",
+    "failMessageText": "Priscilu_QUEST_6 failMessageText",
+    "name": "Priscilu_QUEST_6 name",
+    "note": "Priscilu_QUEST_6 note",
+    "location": "5714dbc024597771384a510d",
+    "image": "/files/quest/icon/5ae4a76086f774455f7d62d2.jpg",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "12000",
+          "id": "Priscilu_QUEST_6_Reward0",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.05",
+          "id": "Priscilu_QUEST_6_Reward1",
+          "type": "TraderStanding",
+          "target": "Priscilu",
+          "index": 1
+        },
+        {
+          "value": "100000",
+          "id": "Priscilu_QUEST_6_Reward2",
+          "type": "Item",
+          "target": "Priscilu_QUEST_6_ItemReward0",
+          "index": 2,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_6_ItemReward0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 100000
+              }
+            }
+          ]
+        },
+        {
+          "value": "3",
+          "id": "Priscilu_QUEST_6_Reward3",
+          "type": "Item",
+          "target": "Priscilu_QUEST_6_ItemReward1",
+          "index": 3,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_6_ItemReward1",
+              "_tpl": "5f745ee30acaeb0d490d8c5b",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Priscilu_QUEST_6 description",
+    "successMessageText": "Priscilu_QUEST_6 successMessageText",
+    "templateId": "Priscilu_QUEST_6",
+    "traderId": "66c0d4fc713f0ea9c8e7368e",
+    "type": "Completion"
+  },
+  "66b845b175a0ec4cfaedf9ef": {
+    "QuestName": "Scav Scav",
+    "_id": "66b845b175a0ec4cfaedf9ef",
+    "canShowNotificationsInGame": true,
+    "acceptPlayerMessage": "66b845b175a0ec4cfaedf9ef acceptPlayerMessage",
+    "changeQuestMessageText": "66b845b175a0ec4cfaedf9ef changeQuestMessageText",
+    "completePlayerMessage": "66b845b175a0ec4cfaedf9ef completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "id": "66b845b175a0ec4cfaedf9ef TASK0",
+            "conditions": [
+              {
+                "_parent": "Kills",
+                "_props": {
+                  "target": "Savage",
+                  "compareMethod": ">=",
+                  "value": "1",
+                  "id": "66b845b175a0ec4cfaedf9ef TASK1"
+                }
+              }
+            ]
+          },
+          "id": "66b845b175a0ec4cfaedf9ef TASK1",
+          "index": 0,
+          "parentId": "",
+          "oneSessionOnly": false,
+          "dynamicLocale": false,
+          "type": "Elimination",
+          "doNotResetIfCounterCompleted": false,
+          "value": "10",
+          "visibilityConditions": []
+        },
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "id": "66b845b175a0ec4cfaedf9ef TASK2",
+            "index": 3,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "parentId": "",
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "dynamicLocale": false,
+            "target": [
+              "5751a25924597722c463c472"
+            ],
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "Priscilu_WELCOME_REQUIREDQUEST",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 1,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "66b845b175a0ec4cfaedf9ef description",
+    "failMessageText": "66b845b175a0ec4cfaedf9ef failMessageText",
+    "name": "66b845b175a0ec4cfaedf9ef name",
+    "note": "66b845b175a0ec4cfaedf9ef note",
+    "questStatus": {},
+    "traderId": "66c0d4fc713f0ea9c8e7368e",
+    "location": "any",
+    "image": "/files/quest/icon/Priscilu_Welcome.jpg",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "66b845b175a0ec4cfaedf9ef startedMessageText",
+    "successMessageText": "66b845b175a0ec4cfaedf9ef successMessageText",
+    "templateId": "66b845b175a0ec4cfaedf9ef",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "4500",
+          "id": "5fe305df8a67d12f5f24c8aa",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "34500",
+          "id": "5fe305d9c646836c3b6fc562",
+          "type": "Item",
+          "index": 1,
+          "target": "6492e44bf4287b13040fca56",
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca56",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 34500
+              }
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "id": "60098ad7c2240c0fe85c570a",
+          "type": "Item",
+          "index": 1,
+          "target": "6492e44bf4287b13040fca56",
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca56",
+              "_tpl": "60098ad7c2240c0fe85c570a",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        },
+        {
+          "value": "0.05",
+          "id": "60c89c0c80b2027f403dd992",
+          "type": "TraderStanding",
+          "index": 5,
+          "target": "66c0d4fc713f0ea9c8e7368e"
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  },
+  "Priscilu_QUEST_7": {
+    "QuestName": "Takedown : Prelude",
+    "_id": "Priscilu_QUEST_7",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "Priscilu_QUEST_7 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "Priscilu_QUEST_7_TASK1_0",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "AnyPmc",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "weapon": [
+                      "633ec7c2a6918cb895019c6c"
+                    ],
+                    "id": "Priscilu_QUEST_7_TASK1_1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "target": [
+                      "TarkovStreets"
+                    ],
+                    "id": "Priscilu_QUEST_7_TASK1_2"
+                  }
+                }
+              ]
+            },
+            "id": "Priscilu_QUEST_7_TASK1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": true,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "4",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "Priscilu_QUEST_7_REQUIRED",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 10,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          }
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "Priscilu_QUEST_7_REQUIREDQUEST",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "Priscilu_QUEST_13",
+            "status": [
+              4
+            ],
+            "availableAfter": 0,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "Priscilu_QUEST_7 description",
+    "failMessageText": "Priscilu_QUEST_7 failMessageText",
+    "name": "Priscilu_QUEST_7 name",
+    "note": "Priscilu_QUEST_7 note",
+    "location": "5714dc692459777137212e12",
+    "image": "/files/quest/icon/5d67b41686f774368e1b78df.jpg",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "15000",
+          "id": "Priscilu_QUEST_7_Reward0",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.03",
+          "id": "Priscilu_QUEST_7_Reward1",
+          "type": "TraderStanding",
+          "target": "66c0d4fc713f0ea9c8e7368e",
+          "index": 1
+        },
+        {
+          "value": "-0.03",
+          "id": "Priscilu_QUEST_7_Reward2",
+          "type": "TraderStanding",
+          "target": "66c0d4fc713f0ea9c8e7368e",
+          "index": 2
+        },
+        {
+          "value": "75000",
+          "id": "Priscilu_QUEST_7_Reward3",
+          "type": "Item",
+          "target": "Priscilu_QUEST_7_ItemReward0",
+          "index": 3,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_7_ItemReward0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 75000
+              }
+            }
+          ]
+        },
+        {
+          "value": "2",
+          "id": "Priscilu_QUEST_7_Reward4",
+          "type": "Item",
+          "target": "Priscilu_QUEST_7_ItemReward1",
+          "index": 4,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_7_ItemReward1",
+              "_tpl": "5d235b4d86f7742e017bc88a",
+              "upd": {
+                "StackObjectsCount": 2
+              }
+            }
+          ]
+        },
+        {
+          "value": "2",
+          "id": "Priscilu_QUEST_7_Reward5",
+          "type": "Item",
+          "target": "Priscilu_QUEST_7_ItemReward2",
+          "index": 5,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_7_ItemReward2",
+              "_tpl": "5734758f24597738025ee253",
+              "upd": {
+                "StackObjectsCount": 2
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Priscilu_QUEST_7 description",
+    "successMessageText": "Priscilu_QUEST_7 successMessageText",
+    "templateId": "Priscilu_QUEST_7",
+    "traderId": "66c0d4fc713f0ea9c8e7368e",
+    "type": "Completion"
+  },
+  "Priscilu_QUEST_8": {
+    "QuestName": "Takedown: Part 2",
+    "_id": "Priscilu_QUEST_8",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "Priscilu_QUEST_8 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "Priscilu_QUEST_8_TASK1_0",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "AnyPmc",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "id": "Priscilu_QUEST_8_TASK1_1",
+                    "weapon": [
+                      "627e14b21713922ded6f2c15"
+                    ]
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "target": [
+                      "lighthouse"
+                    ],
+                    "id": "Priscilu_QUEST_8_TASK1_2"
+                  }
+                }
+              ]
+            },
+            "id": "Priscilu_QUEST_8_TASK1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "Priscilu_QUEST_8_TASK1",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "Priscilu_QUEST_7",
+            "status": [
+              4
+            ],
+            "availableAfter": 0,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "Priscilu_QUEST_8 description",
+    "failMessageText": "Priscilu_QUEST_8 failMessageText",
+    "name": "Priscilu_QUEST_8 name",
+    "note": "Priscilu_QUEST_8 note",
+    "location": "5704e4dad2720bb55b8b4567",
+    "image": "/files/quest/icon/60c373b71d348838124696ea.jpg",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "15000",
+          "id": "Priscilu_QUEST_8_Reward0",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "100000",
+          "id": "Priscilu_QUEST_8_Reward1",
+          "type": "Item",
+          "target": "Priscilu_QUEST_8_ItemReward0",
+          "index": 1,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_8_ItemReward0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 100000
+              }
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "id": "Priscilu_QUEST_8_Reward2",
+          "type": "Item",
+          "target": "Priscilu_QUEST_8_ItemReward1",
+          "index": 2,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_8_ItemReward1",
+              "_tpl": "59faff1d86f7746c51718c9c",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Priscilu_QUEST_6 description",
+    "successMessageText": "Priscilu_QUEST_6 successMessageText",
+    "templateId": "Priscilu_QUEST_6",
+    "traderId": "66c0d4fc713f0ea9c8e7368e",
+    "type": "Completion"
+  },
+  "Priscilu_QUEST_9": {
+    "QuestName": "Takedown: Part 3",
+    "_id": "Priscilu_QUEST_9",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "Priscilu_QUEST_9 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "Priscilu_QUEST_9_TASK1_0",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "AnyPmc",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "id": "Priscilu_QUEST_9_TASK1_1",
+                    "weapon": [
+                      "55801eed4bdc2d89578b4588"
+                    ]
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "target": [
+                      "RezervBase"
+                    ],
+                    "id": "Priscilu_QUEST_9_TASK1_2"
+                  }
+                }
+              ]
+            },
+            "id": "Priscilu_QUEST_9_TASK1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "Priscilu_QUEST_9_TASK1",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "Priscilu_QUEST_8",
+            "status": [
+              4
+            ],
+            "availableAfter": 0,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "Priscilu_QUEST_9 description",
+    "failMessageText": "Priscilu_QUEST_9 failMessageText",
+    "name": "Priscilu_QUEST_9 name",
+    "note": "Priscilu_QUEST_9 note",
+    "location": "5704e5fad2720bc05b8b4567",
+    "image": "/files/quest/icon/61ab48bc5c890e40ca1a30f8.jpg",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "19000",
+          "id": "Priscilu_QUEST_9_Reward0",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "100000",
+          "id": "Priscilu_QUEST_9_Reward1",
+          "type": "Item",
+          "target": "Priscilu_QUEST_9_ItemReward0",
+          "index": 1,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_9_ItemReward0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 100000
+              }
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "id": "Priscilu_QUEST_9_Reward2",
+          "type": "Item",
+          "target": "Priscilu_QUEST_9_ItemReward1",
+          "index": 2,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_9_ItemReward1",
+              "_tpl": "5a0ea64786f7741707720468",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "id": "Priscilu_QUEST_9_Reward3",
+          "type": "Item",
+          "target": "Priscilu_QUEST_9_ItemReward2",
+          "index": 2,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_9_ItemReward2",
+              "_tpl": "5c0e6a1586f77404597b4965",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Priscilu_QUEST_6 description",
+    "successMessageText": "Priscilu_QUEST_6 successMessageText",
+    "templateId": "Priscilu_QUEST_6",
+    "traderId": "66c0d4fc713f0ea9c8e7368e",
+    "type": "Completion"
+  },
+  "Priscilu_QUEST_10": {
+    "QuestName": "Takedown: Part 4",
+    "_id": "Priscilu_QUEST_10",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "Priscilu_QUEST_10 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "Priscilu_QUEST_10_TASK1_0",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "AnyPmc",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "id": "Priscilu_QUEST_10_TASK1_1",
+                    "weapon": [
+                      "5bfea6e90db834001b7347f3"
+                    ]
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "target": [
+                      "Woods"
+                    ],
+                    "id": "Priscilu_QUEST_10_TASK1_2"
+                  }
+                }
+              ]
+            },
+            "id": "Priscilu_QUEST_10_TASK1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "Priscilu_QUEST_10_TASK1",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "Priscilu_QUEST_9",
+            "status": [
+              4
+            ],
+            "availableAfter": 0,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "Priscilu_QUEST_10 description",
+    "failMessageText": "Priscilu_QUEST_10 failMessageText",
+    "name": "Priscilu_QUEST_10 name",
+    "note": "Priscilu_QUEST_10 note",
+    "location": "5704e3c2d2720bac5b8b4567",
+    "image": "/files/quest/icon/61ab38781b7da753125cfaa5.jpg",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "17000",
+          "id": "Priscilu_QUEST_10_Reward0",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "70000",
+          "id": "Priscilu_QUEST_10_Reward1",
+          "type": "Item",
+          "target": "Priscilu_QUEST_10_ItemReward0",
+          "index": 1,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_10_ItemReward0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 70000
+              }
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "id": "Priscilu_QUEST_10_Reward2",
+          "type": "Item",
+          "target": "Priscilu_QUEST_10_ItemReward1",
+          "index": 2,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_10_ItemReward1",
+              "_tpl": "59faff1d86f7746c51718c9c",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "id": "Priscilu_QUEST_10_Reward3",
+          "type": "Item",
+          "target": "Priscilu_QUEST_10_ItemReward2",
+          "index": 2,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_10_ItemReward2",
+              "_tpl": "5a0ee34586f774023b6ee092",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Priscilu_QUEST_10 description",
+    "successMessageText": "Priscilu_QUEST_10 successMessageText",
+    "templateId": "Priscilu_QUEST_10",
+    "traderId": "66c0d4fc713f0ea9c8e7368e",
+    "type": "Completion"
+  },
+  "Priscilu_QUEST_11": {
+    "QuestName": "Takedown : Part 5",
+    "_id": "Priscilu_QUEST_11",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "Priscilu_QUEST_11 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "Priscilu_QUEST_11_TASK1_0",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "AnyPmc",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "id": "Priscilu_QUEST_11_TASK1_1",
+                    "weapon": [
+                      "6176aca650224f204c1da3fb"
+                    ]
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "target": [
+                      "bigmap"
+                    ],
+                    "id": "Priscilu_QUEST_11_TASK1_2"
+                  }
+                }
+              ]
+            },
+            "id": "Priscilu_QUEST_11_TASK1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "Priscilu_QUEST_11_TASK1",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "Priscilu_QUEST_10",
+            "status": [
+              4
+            ],
+            "availableAfter": 0,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "Priscilu_QUEST_11 description",
+    "failMessageText": "Priscilu_QUEST_11 failMessageText",
+    "name": "Priscilu_QUEST_11 name",
+    "note": "Priscilu_QUEST_11 note",
+    "location": "56f40101d2720b2a4d8b45d6",
+    "image": "/files/quest/icon/597a0fad86f77426d464f995.jpg",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "15000",
+          "id": "Priscilu_QUEST_11_Reward0",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "60000",
+          "id": "Priscilu_QUEST_11_Reward1",
+          "type": "Item",
+          "target": "Priscilu_QUEST_11_ItemReward0",
+          "index": 1,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_11_ItemReward0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 60000
+              }
+            }
+          ]
+        },
+        {
+          "value": "1",
+          "id": "Priscilu_QUEST_11_Reward2",
+          "type": "Item",
+          "target": "Priscilu_QUEST_11_ItemReward1",
+          "index": 2,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_11_ItemReward1",
+              "_tpl": "609e860ebd219504d8507525",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Priscilu_QUEST_11 description",
+    "successMessageText": "Priscilu_QUEST_11 successMessageText",
+    "templateId": "Priscilu_QUEST_11",
+    "traderId": "66c0d4fc713f0ea9c8e7368e",
+    "type": "Completion"
+  },
+  "Priscilu_QUEST_12": {
+    "QuestName": "Takedown : Final State",
+    "_id": "Priscilu_QUEST_12",
+    "acceptPlayerMessage": " acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": " changeQuestMessageText",
+    "completePlayerMessage": " completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "Priscilu_QUEST_12TEXT5",
+                "savageRole": [
+                  "bossKnight"
+                ],
+                "target": "Savage",
+                "value": "1"
+              },
+              {
+                "conditionType": "Location",
+                "id": "56f40101d2720b2a4d8b45d6",
+                "target": [
+                  "bigmap"
+                ]
+              }
+            ],
+            "id": "Priscilu_QUEST_12 TASK1"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "Priscilu_QUEST_12 TASK1",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "3",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "Priscilu_QUEST_12TEXT5",
+                "savageRole": [
+                  "sectantWarrior"
+                ],
+                "target": "Savage",
+                "value": "1"
+              },
+              {
+                "conditionType": "Location",
+                "id": "5704e3c2d2720bac5b8b4567",
+                "target": [
+                  "Woods"
+                ]
+              }
+            ],
+            "id": "Priscilu_QUEST_12 TASK2"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "Priscilu_QUEST_12 TASK2",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "3",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "Priscilu_QUEST_12_TASK1",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "Priscilu_QUEST_11",
+            "status": [
+              4
+            ],
+            "availableAfter": 0,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "Priscilu_QUEST_12 declinePlayerMessage",
+    "description": "Priscilu_QUEST_12 desc",
+    "failMessageText": "Priscilu_QUEST_12 failMessageText",
+    "image": "/files/quest/icon/5a27cafa86f77424e20615d6.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "Priscilu_QUEST_12 name",
+    "note": "Priscilu_QUEST_12 note",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "5fe305df8a67d12f5f24c8aa",
+          "index": 0,
+          "type": "Experience",
+          "value": "13234"
+        },
+        {
+          "findInRaid": true,
+          "id": "5fe305d9c646836c3b6fc562",
+          "index": 1,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca56",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 250000
+              }
+            }
+          ],
+          "target": "6492e44bf4287b13040fca56",
+          "type": "Item",
+          "value": "250000"
+        },
+        {
+          "findInRaid": true,
+          "id": "5fe305d9c646836c3b6fc562",
+          "index": 3,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca46",
+              "_tpl": "5e4abb5086f77406975c9342",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "6492e44bf4287b13040fca46",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "findInRaid": true,
+          "id": "60cb467f7c496e588343a193",
+          "index": 3,
+          "items": [
+            {
+              "_id": "0418002634926886040c0170",
+              "_tpl": "57838ad32459774a17445cd2",
+              "upd": {
+                "FireMode": {
+                  "FireMode": "single"
+                },
+                "Repairable": {
+                  "Durability": 100,
+                  "MaxDurability": 100
+                }
+              }
+            },
+            {
+              "_id": "0418002634119220882cbaae",
+              "_tpl": "5dff8db859400025ea5150d4",
+              "slotId": "mod_mount_000",
+              "parentId": "0418002634926886040c0170"
+            },
+            {
+              "_id": "041800263470836644168c3b",
+              "_tpl": "5c07dd120db834001c39092d",
+              "slotId": "mod_scope",
+              "parentId": "0418002634119220882cbaae"
+            },
+            {
+              "_id": "041800263458158688313880",
+              "_tpl": "57838f9f2459774a150289a0",
+              "slotId": "mod_magazine",
+              "parentId": "0418002634926886040c0170"
+            },
+            {
+              "_id": "041800263424891074481e00",
+              "_tpl": "57c44dd02459772d2e0ae249",
+              "slotId": "mod_muzzle",
+              "parentId": "0418002634926886040c0170"
+            },
+            {
+              "_id": "0418002634337674463b4537",
+              "_tpl": "59eb7ebe86f7740b373438ce",
+              "slotId": "mod_mount_000",
+              "parentId": "041800263424891074481e00"
+            },
+            {
+              "_id": "0418002634565589058a2ad5",
+              "_tpl": "56def37dd2720bec348b456a",
+              "slotId": "mod_tactical_001",
+              "parentId": "0418002634337674463b4537"
+            },
+            {
+              "_id": "04180026348682726212d37b",
+              "_tpl": "5c1cd46f2e22164bef5cfedb",
+              "slotId": "mod_foregrip",
+              "parentId": "0418002634337674463b4537"
+            },
+            {
+              "_id": "04180026344531341919e6d6",
+              "_tpl": "57c44f4f2459772d2c627113",
+              "slotId": "mod_reciever",
+              "parentId": "0418002634926886040c0170"
+            },
+            {
+              "_id": "041800263463429377765538",
+              "_tpl": "578395e82459774a0e553c7b",
+              "slotId": "mod_stock",
+              "parentId": "0418002634926886040c0170"
+            },
+            {
+              "_id": "0418002634187547370b0fdc",
+              "_tpl": "6130ca3fd92c473c77020dbd",
+              "slotId": "mod_charge",
+              "parentId": "0418002634926886040c0170"
+            }
+          ],
+          "target": "0418002634926886040c0170",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "id": "60c89c0c80b2027f403dd992",
+          "index": 5,
+          "target": "66c0d4fc713f0ea9c8e7368e",
+          "type": "TraderStanding",
+          "value": "0.15"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Priscilu_QUEST_12 desc",
+    "successMessageText": "Priscilu_QUEST_12 success",
+    "traderId": "66c0d4fc713f0ea9c8e7368e",
+    "type": "Elimination"
+  },
+  "Priscilu_QUEST_13": {
+    "QuestName": "Takedown : Act of Courage",
+    "_id": "Priscilu_QUEST_13",
+    "acceptPlayerMessage": "Priscilu_QUEST_13 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "Priscilu_QUEST_13 changeQuestMessageText",
+    "completePlayerMessage": "Priscilu_QUEST_13 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "Priscilu_QUEST_13 TASK1_0",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [
+                  [
+                    "545cdb794bdc2d3a198b456a"
+                  ],
+                  [
+                    "5ab8e79e86f7742d8b372e78"
+                  ],
+                  [
+                    "5ab8e4ed86f7742d8e50c7fa"
+                  ],
+                  [
+                    "5c0e53c886f7747fa54205c7"
+                  ],
+                  [
+                    "5c0e51be86f774598e797894"
+                  ],
+                  [
+                    "5c0e541586f7747fa54205c9"
+                  ],
+                  [
+                    "5c0e5bab86f77461f55ed1f3"
+                  ],
+                  [
+                    "5c0e57ba86f7747fa141986d"
+                  ],
+                  [
+                    "5b44cd8b86f774503d30cba2"
+                  ],
+                  [
+                    "5b44cf1486f77431723e3d05"
+                  ],
+                  [
+                    "5b44d0de86f774503d30cba8"
+                  ],
+                  [
+                    "5b44d22286f774172b0c9de8"
+                  ],
+                  [
+                    "5ca2151486f774244a3b8d30"
+                  ],
+                  [
+                    "5ca21c6986f77479963115a7"
+                  ],
+                  [
+                    "5c0e655586f774045612eeb2"
+                  ],
+                  [
+                    "5c0e5edb86f77461f55ed1f7"
+                  ],
+                  [
+                    "5c0e625a86f7742d77340f62"
+                  ],
+                  [
+                    "59e7635f86f7742cbf2c1095"
+                  ],
+                  [
+                    "5648a7494bdc2d9d488b4583"
+                  ],
+                  [
+                    "5ab8dced86f774646209ec87"
+                  ],
+                  [
+                    "5c0e446786f7742013381639"
+                  ],
+                  [
+                    "5c0e3eb886f7742015526062"
+                  ],
+                  [
+                    "5b44cad286f77402a54ae7e5"
+                  ],
+                  [
+                    "5c0e746986f7741453628fe5"
+                  ],
+                  [
+                    "544a5caa4bdc2d1a388b4568"
+                  ],
+                  [
+                    "5d5d646386f7742797261fd9"
+                  ],
+                  [
+                    "5e9dacf986f774054d6b89f4"
+                  ],
+                  [
+                    "5e4ac41886f77406a511c9a8"
+                  ],
+                  [
+                    "5e4abb5086f77406975c9342"
+                  ],
+                  [
+                    "5fd4c474dd870108a754b241"
+                  ],
+                  [
+                    "5f5f41476bdad616ad46d631"
+                  ],
+                  [
+                    "5df8a2ca86f7740bfe6df777"
+                  ],
+                  [
+                    "5c0e722886f7740458316a57"
+                  ],
+                  [
+                    "6038b4ca92ec1c3103795a0d"
+                  ],
+                  [
+                    "6038b4b292ec1c3103795a0b"
+                  ],
+                  [
+                    "60a3c70cde5f453f634816a3"
+                  ],
+                  [
+                    "60a3c68c37ea821725773ef5"
+                  ],
+                  [
+                    "60a283193cb70855c43a381d"
+                  ],
+                  [
+                    "609e860ebd219504d8507525"
+                  ],
+                  [
+                    "609e8540d5c319764c2bc2e9"
+                  ],
+                  [
+                    "61bc85697113f767765c7fe7"
+                  ],
+                  [
+                    "61bcc89aef0f505f0c6cd0fc"
+                  ],
+                  [
+                    "62a09d79de7ac81993580530"
+                  ],
+                  [
+                    "628b9784bcf6e2659e09b8a2"
+                  ],
+                  [
+                    "628b9c7d45122232a872358f"
+                  ],
+                  [
+                    "628cd624459354321c4b7fa2"
+                  ],
+                  [
+                    "628d0618d1ba6e4fa07ce5a4"
+                  ],
+                  [
+                    "628dc750b910320f4c27a732"
+                  ],
+                  [
+                    "5d5d87f786f77427997cfaef"
+                  ],
+                  [
+                    "639343fce101f4caa40a4ef3"
+                  ],
+                  [
+                    "63737f448b28897f2802b874"
+                  ],
+                  [
+                    "64be79c487d1510151095552"
+                  ],
+                  [
+                    "64be79e2bf8412471d0d9bcc"
+                  ],
+                  [
+                    "64abd93857958b4249003418"
+                  ],
+                  [
+                    "64a5366719bab53bd203bf33"
+                  ],
+                  [
+                    "64a536392d2c4e6e970f4121"
+                  ]
+                ],
+                "equipmentInclusive": [],
+                "id": "5d25af8586f77443fe4569c4"
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "5d2f064386f77459145a4d23",
+                "target": [
+                  "bigmap"
+                ]
+              }
+            ],
+            "id": "Priscilu_QUEST_13 TASK1_1"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "Priscilu_QUEST_13 TASK1",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "Priscilu_QUEST_13_REQUIRED",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 10,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          }
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "Priscilu_QUEST_13 declinePlayerMessage",
+    "description": "Priscilu_QUEST_13 description",
+    "failMessageText": "Priscilu_QUEST_13 failMessageText",
+    "image": "/files/quest/icon/5979d3ea86f7746d0b3e3fdc.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "56f40101d2720b2a4d8b45d6",
+    "name": "Priscilu_QUEST_13 name",
+    "note": "Priscilu_QUEST_13 note",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "Priscilu_QUEST_13_Reward_0",
+          "index": 0,
+          "type": "Experience",
+          "value": "10000"
+        },
+        {
+          "findInRaid": true,
+          "id": "Priscilu_QUEST_13_Reward_1",
+          "index": 1,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_13_Reward_1_1",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 50000
+              }
+            }
+          ],
+          "target": "Priscilu_QUEST_13_Reward_1_1",
+          "type": "Item",
+          "value": "50000"
+        },
+        {
+          "findInRaid": true,
+          "id": "Priscilu_QUEST_13_Reward_2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "Priscilu_QUEST_13_Reward_2_1",
+              "_tpl": "601949593ae8f707c4608daa",
+              "upd": {
+                "StackObjectsCount": 200
+              }
+            }
+          ],
+          "target": "Priscilu_QUEST_13_Reward_2_1",
+          "type": "Item",
+          "value": "200"
+        },
+        {
+          "findInRaid": true,
+          "id": "Priscilu_QUEST_13_Reward_3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "0417180200474001254c80bd",
+              "_tpl": "5d43021ca4b9362eab4b5e25",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "0417180200879441755d229f",
+              "_tpl": "5b07db875acfc40dc528a5f6",
+              "slotId": "mod_pistol_grip",
+              "parentId": "0417180200474001254c80bd"
+            },
+            {
+              "_id": "0417180200824626953c994a",
+              "_tpl": "59c1383d86f774290a37e0ca",
+              "slotId": "mod_magazine",
+              "parentId": "0417180200474001254c80bd"
+            },
+            {
+              "_id": "04171802004005590885d68a",
+              "_tpl": "55d355e64bdc2d962f8b4569",
+              "slotId": "mod_reciever",
+              "parentId": "0417180200474001254c80bd"
+            },
+            {
+              "_id": "0417180200781434974e13cb",
+              "_tpl": "570fd721d2720bc5458b4596",
+              "slotId": "mod_scope",
+              "parentId": "04171802004005590885d68a"
+            },
+            {
+              "_id": "041718020036577466492256",
+              "_tpl": "5c0e2f94d174af029f650d56",
+              "slotId": "mod_barrel",
+              "parentId": "04171802004005590885d68a"
+            },
+            {
+              "_id": "0417180200940668627eb4f9",
+              "_tpl": "59bffc1f86f77435b128b872",
+              "slotId": "mod_muzzle",
+              "parentId": "041718020036577466492256"
+            },
+            {
+              "_id": "0417180200522990467375eb",
+              "_tpl": "59bffbb386f77435b379b9c2",
+              "slotId": "mod_muzzle",
+              "parentId": "0417180200940668627eb4f9"
+            },
+            {
+              "_id": "041718020040002062601b5f",
+              "_tpl": "5d00ec68d7ad1a04a067e5be",
+              "slotId": "mod_gas_block",
+              "parentId": "041718020036577466492256"
+            },
+            {
+              "_id": "0417180200691224949e1075",
+              "_tpl": "5d122e7bd7ad1a07102d6d7f",
+              "slotId": "mod_handguard",
+              "parentId": "04171802004005590885d68a"
+            },
+            {
+              "_id": "04171802007506055804baaa",
+              "_tpl": "5d124c01d7ad1a115c7d59fb",
+              "slotId": "mod_mount_000",
+              "parentId": "0417180200691224949e1075"
+            },
+            {
+              "_id": "0417180200205526687737e9",
+              "_tpl": "5d123a3cd7ad1a004e476058",
+              "slotId": "mod_mount_001",
+              "parentId": "0417180200691224949e1075"
+            },
+            {
+              "_id": "0417180200306211951612a0",
+              "_tpl": "637f57c532b66e7e320a6676",
+              "slotId": "mod_handguard",
+              "parentId": "0417180200691224949e1075"
+            },
+            {
+              "_id": "0417180200918042888e554a",
+              "_tpl": "5d123b7dd7ad1a004f01b262",
+              "slotId": "mod_foregrip",
+              "parentId": "0417180200306211951612a0"
+            },
+            {
+              "_id": "04171802007762643980bf68",
+              "_tpl": "6272379924e29f06af4d5ecb",
+              "slotId": "mod_tactical_003",
+              "parentId": "0417180200306211951612a0"
+            },
+            {
+              "_id": "04171802002420725684a3dc",
+              "_tpl": "5c0faeddd174af02a962601f",
+              "slotId": "mod_stock",
+              "parentId": "0417180200474001254c80bd"
+            },
+            {
+              "_id": "04171802002454270849210d",
+              "_tpl": "6529370c405a5f51dd023db8",
+              "slotId": "mod_stock_000",
+              "parentId": "04171802002420725684a3dc"
+            },
+            {
+              "_id": "04171802008014682121f2b3",
+              "_tpl": "5f633ff5c444ce7e3c30a006",
+              "slotId": "mod_charge",
+              "parentId": "0417180200474001254c80bd"
+            }
+          ],
+          "target": "0417180200474001254c80bd",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "id": "Priscilu_QUEST_13_Reward_4",
+          "index": 4,
+          "target": "66c0d4fc713f0ea9c8e7368e",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Priscilu_QUEST_13 startedMessageText",
+    "successMessageText": "Priscilu_QUEST_13 successMessageText",
+    "traderId": "66c0d4fc713f0ea9c8e7368e",
+    "type": "Completion"
+  },
+  "PrisciluTIQ1": {
+    "QuestName": "Looking for Food",
+    "_id": "PrisciluTIQ1",
+    "acceptPlayerMessage": "PrisciluTIQ1 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "PrisciluTIQ1 changeQuestMessageText",
+    "completePlayerMessage": "PrisciluTIQ1 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "id": "Priscilu_WELCOME TASK",
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "target": "Savage",
+                    "compareMethod": ">=",
+                    "value": "1",
+                    "id": "Priscilu_WELCOME TASK1"
+                  }
+                }
+              ]
+            },
+            "id": "Priscilu_WELCOME TASK1",
+            "index": 0,
+            "parentId": "",
+            "oneSessionOnly": false,
+            "dynamicLocale": false,
+            "type": "Elimination",
+            "doNotResetIfCounterCompleted": false,
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "PrisciluTIQ1 TASK1",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "65815f0e647e3d7246384e14"
+          ],
+          "value": 3,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "PrisciluTIQ1 TASK2",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "575146b724597720a27126d5"
+          ],
+          "value": 3,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "PrisciluTIQ1 TASK3",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "60b0f93284c20f0feb453da7"
+          ],
+          "value": 3,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "id": "PrisciluTIQ1_REQUIRED",
+            "index": 0,
+            "parentId": "",
+            "dynamicLocale": false,
+            "value": 1,
+            "compareMethod": ">=",
+            "visibilityConditions": []
+          }
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "PrisciluTIQ1 declinePlayerMessage",
+    "description": "PrisciluTIQ1 description",
+    "failMessageText": "PrisciluTIQ1 failMessageText",
+    "image": "/files/quest/icon/5979d3da86f774719f309082.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "PrisciluTIQ1 name",
+    "note": "PrisciluTIQ1 note",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "PrisciluTIQ1 reward_0",
+          "index": 0,
+          "type": "Experience",
+          "value": 3900
+        },
+        {
+          "id": "PrisciluTIQ1 reward_1",
+          "index": 1,
+          "target": "66c0d4fc713f0ea9c8e7368e",
+          "type": "TraderStanding",
+          "value": "0.03"
+        },
+        {
+          "findInRaid": true,
+          "id": "PrisciluTIQ1 reward_2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "PrisciluTIQ1 reward_2_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 50000
+              }
+            }
+          ],
+          "target": "PrisciluTIQ1 reward_2_0",
+          "type": "Item",
+          "value": "50000"
+        },
+        {
+          "findInRaid": true,
+          "id": "PrisciluTIQ1 reward_3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "661f33776b5151c024011d2e",
+              "_tpl": "59faff1d86f7746c51718c9c",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "661f33776b5151c024011d2e",
+          "type": "Item",
+          "value": "1"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "PrisciluTIQ1 startedMessageText",
+    "successMessageText": "PrisciluTIQ1 successMessageText",
+    "traderId": "66c0d4fc713f0ea9c8e7368e",
+    "type": "Completion"
+  },
+  "PrisciluTIQ2": {
+    "QuestName": "SKS-DRUM",
+    "_id": "PrisciluTIQ2",
+    "acceptPlayerMessage": "PrisciluTIQ2 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "PrisciluTIQ2 changeQuestMessageText",
+    "completePlayerMessage": "PrisciluTIQ2 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "PrisciluTIQ2 TASK1",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "587e02ff24597743df3deaeb"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "PrisciluTIQ2 TASK2",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "61695095d92c473c7702147a"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "PrisciluTIQ2 TASK3",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "64b7af5a8532cf95ee0a0dbd"
+          ],
+          "value": 75,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "id": "PrisciluTIQ2_REQUIREDQUEST",
+            "index": 1,
+            "parentId": "",
+            "dynamicLocale": false,
+            "target": "PrisciluTIQ1",
+            "status": [
+              4
+            ],
+            "availableAfter": 0,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "PrisciluTIQ2 declinePlayerMessage",
+    "description": "PrisciluTIQ2 description",
+    "failMessageText": "PrisciluTIQ2 failMessageText",
+    "image": "/files/quest/icon/Priscilutiq2.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "PrisciluTIQ2 name",
+    "note": "PrisciluTIQ2 note",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "PrisciluTIQ2 reward_0",
+          "index": 0,
+          "type": "Experience",
+          "value": 3900
+        },
+        {
+          "id": "PrisciluTIQ2 reward_1",
+          "index": 1,
+          "target": "66c0d4fc713f0ea9c8e7368e",
+          "type": "TraderStanding",
+          "value": "0.03"
+        },
+        {
+          "findInRaid": true,
+          "id": "PrisciluTIQ2 reward_2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "PrisciluTIQ2 reward_2_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 45000
+              }
+            }
+          ],
+          "target": "PrisciluTIQ2 reward_2_0",
+          "type": "Item",
+          "value": "45000"
+        },
+        {
+          "findInRaid": true,
+          "id": "PrisciluTIQ2 reward_3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "d7962a0006ad9f4b5a605060",
+              "_tpl": "587e02ff24597743df3deaeb",
+              "upd": {
+                "FireMode": {
+                  "FireMode": "single"
+                },
+                "Repairable": {
+                  "Durability": 100,
+                  "MaxDurability": 100
+                }
+              }
+            },
+            {
+              "_id": "af3c2e47708a892ba4990d92",
+              "_tpl": "5d0236dad7ad1a0940739d29",
+              "parentId": "d7962a0006ad9f4b5a605060",
+              "slotId": "mod_stock"
+            },
+            {
+              "_id": "3a61fe3883215429284b2380",
+              "_tpl": "634eff66517ccc8a960fc735",
+              "parentId": "d7962a0006ad9f4b5a605060",
+              "slotId": "mod_barrel"
+            },
+            {
+              "_id": "1f7c5c2e1332ab0fae2c0aff",
+              "_tpl": "5c5970672e221602b21d7855",
+              "parentId": "d7962a0006ad9f4b5a605060",
+              "slotId": "mod_magazine"
+            },
+            {
+              "_id": "329b99e8a7a6cd8cf1b34ea4",
+              "_tpl": "6415c694da439c6a97048b56",
+              "parentId": "d7962a0006ad9f4b5a605060",
+              "slotId": "mod_reciever"
+            },
+            {
+              "_id": "76cb645992f2a79a5847e147",
+              "_tpl": "59e0d99486f7744a32234762",
+              "parentId": "d7962a0006ad9f4b5a605060",
+              "slotId": "patron_in_weapon"
+            },
+            {
+              "_id": "39b9738a4f42e198cae8b532",
+              "_tpl": "5e2192a498a36665e8337386",
+              "parentId": "af3c2e47708a892ba4990d92",
+              "slotId": "mod_pistol_grip"
+            },
+            {
+              "_id": "425851a6179c794823edfc5e",
+              "_tpl": "56def37dd2720bec348b456a",
+              "parentId": "af3c2e47708a892ba4990d92",
+              "slotId": "mod_tactical_001",
+              "upd": {
+                "Light": {
+                  "IsActive": true,
+                  "SelectedMode": 0
+                }
+              }
+            },
+            {
+              "_id": "0a02ad74ba84a654fb5dbbbc",
+              "_tpl": "653ed132896b99b40a0292e6",
+              "parentId": "af3c2e47708a892ba4990d92",
+              "slotId": "mod_stock"
+            },
+            {
+              "_id": "35cc337aad223229b59c4915",
+              "_tpl": "634f05a21f9f536910079b56",
+              "parentId": "3a61fe3883215429284b2380",
+              "slotId": "mod_mount_000"
+            },
+            {
+              "_id": "f70737104c646deafa5f3b0e",
+              "_tpl": "593d1fa786f7746da62d61ac",
+              "parentId": "3a61fe3883215429284b2380",
+              "slotId": "mod_mount_001"
+            },
+            {
+              "_id": "10e6ecff61e5f610a6a8c7f2",
+              "_tpl": "593d490386f7745ee97a1555",
+              "parentId": "3a61fe3883215429284b2380",
+              "slotId": "mod_muzzle"
+            },
+            {
+              "_id": "3eb33c9497a1ee0c1098e86d",
+              "_tpl": "64b7af734b75259c590fa895",
+              "parentId": "1f7c5c2e1332ab0fae2c0aff",
+              "slotId": "cartridges"
+            },
+            {
+              "_id": "f4f050e315b583c64fca41e0",
+              "_tpl": "570fd721d2720bc5458b4596",
+              "parentId": "329b99e8a7a6cd8cf1b34ea4",
+              "slotId": "mod_scope",
+              "upd": {
+                "Sight": {
+                  "ScopesCurrentCalibPointIndexes": [
+                    0
+                  ],
+                  "ScopesSelectedModes": [
+                    0
+                  ],
+                  "SelectedScope": 0
+                }
+              }
+            },
+            {
+              "_id": "d20391a30d9347b81072cbbb",
+              "_tpl": "634f02d7517ccc8a960fc744",
+              "parentId": "35cc337aad223229b59c4915",
+              "slotId": "mod_gas_block"
+            },
+            {
+              "_id": "54502542e4da99184799dd33",
+              "_tpl": "634f08a21f9f536910079b5a",
+              "parentId": "d20391a30d9347b81072cbbb",
+              "slotId": "mod_mount_000"
+            }
+          ],
+          "target": "d7962a0006ad9f4b5a605060",
+          "type": "Item",
+          "value": "1"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "PrisciluTIQ2 startedMessageText",
+    "successMessageText": "PrisciluTIQ2 successMessageText",
+    "traderId": "66c0d4fc713f0ea9c8e7368e",
+    "type": "Completion"
+  }
+}

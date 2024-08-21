@@ -1,0 +1,33 @@
+{
+    "FirstRun": false,
+    "ShowBuildOptions": true,
+    "GitStatus": false,
+    "ContainPlugin": false,
+    "PluginFileName": "",
+    "PluginPath": "G:/SPT - 3.9.5/BepInEx/plugins",
+    "CopyBundles": true,
+    "BuildZip": true,
+    "BuildDir": "./build",
+    "PathToGame": "G:/SPT - 3.9.5",
+    "CopyToGame": true,
+    "StartServer": false,
+    "StartDelay": 0,
+    "IgnoreList": [
+        "node_modules/",
+        ".vscode/",
+        ".eslintignore",
+        ".eslintrc.json",
+        ".DS_Store",
+        "packageBuild.ts",
+        "package-lock.json",
+        "tsconfig.json",
+        "build.json",
+        "README.md",
+        "Virtual's Custom Quest Loader/",
+        "customWeapons/",
+        "templates/",
+        "TaskMongoIDs.vb",
+        "db/templates/",
+        "images/"
+    ]
+}

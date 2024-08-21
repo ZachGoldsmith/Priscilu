@@ -1,0 +1,28 @@
+{
+	"insuranceStart": [
+		"66bafd1acdf527019bba8583 0",
+		"66bafd1acdf527019bba8583 1"
+
+	],
+	"insuranceFound": [
+		"66bafd1a0fc3db391ff3040d 0",
+		"66bafd1a0fc3db391ff3040d 1"
+	],
+	"insuranceFailed": [
+		"66bafd1a4909fabb3aca5390 0",
+		"66bafd1a4909fabb3aca5390 1"
+	],
+	"insuranceFailedLabs": [
+		"66bafd1a31dc6947908e072e 0",
+		"66bafd1a31dc6947908e072e 1"
+	],
+	"insuranceExpired": [
+		"66bafd1afbe3104749a704bc 0",
+		"66bafd1afbe3104749a704bc 1"
+	],
+	"insuranceComplete": [
+		"66bafd1aaef6e0c8fc769761 0",
+		"66bafd1aaef6e0c8fc769761 1"
+	]
+
+}

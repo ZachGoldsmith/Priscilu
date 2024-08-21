@@ -1,0 +1,45 @@
+{
+	"manifest": [
+		{
+            "key": "Containers/PrisciluSnackPack.bundle",
+            "dependencyKeys": [
+               "assets/commonassets/physics/physicsmaterials.bundle",
+               "cubemaps",
+               "shaders"
+            ]
+        },
+        {
+            "key": "Containers/PrisciluMedPack.bundle",
+            "dependencyKeys": [
+               "assets/commonassets/physics/physicsmaterials.bundle",
+               "cubemaps",
+               "shaders"
+            ]
+        },
+        {
+            "key": "Containers/PrisciluAmmoBox.bundle",
+            "dependencyKeys": [
+               "assets/commonassets/physics/physicsmaterials.bundle",
+               "cubemaps",
+               "shaders"
+            ]
+        },
+        {
+            "key": "Containers/PrisciluToolBox.bundle",
+            "dependencyKeys": [
+               "assets/commonassets/physics/physicsmaterials.bundle",
+               "cubemaps",
+               "shaders"
+            ]
+        },
+		{
+			"key": "Containers/PrisciluModsBox.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"shaders",
+				"assets/content/characters/character/skeleton.bundle",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		}
+	]
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "ZoneId": "locate_boat",
+    "ZoneName": "locate_boat",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-75.3493",
+      "Y": "-13.05438",
+      "Z": "45.57169"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2",
+      "Y": "1",
+      "Z": "2.75"
+    }
+  },
+  {
+  "ZoneId": "locate_boat1",
+  "ZoneName": "locate_boat1",
+  "ZoneLocation": "bigmap",
+  "ZoneType": "visit",
+  "FlareType": "",
+  "Position": {
+    "X": "-75.3493",
+    "Y": "-13.05438",
+    "Z": "45.57169"
+  },
+  "Rotation": {
+    "X": "0",
+    "Y": "0",
+    "Z": "0"
+  },
+  "Scale": {
+    "X": "2",
+    "Y": "1",
+    "Z": "2.75"
+    }
+  },
+  {
+    "ZoneId": "locate_meds",
+    "ZoneName": "locate_meds",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "90.80417",
+      "Y": "5.172584",
+      "Z": "-154.9733"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.05669279",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2",
+      "Y": "1",
+      "Z": "4"
+    }
+  },
+  {
+    "ZoneId": "locate_meds1",
+    "ZoneName": "locate_meds1",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "90.80417",
+      "Y": "5.172584",
+      "Z": "-154.9733"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.05669279",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2",
+      "Y": "1",
+      "Z": "4"
+    }
+  }
+]

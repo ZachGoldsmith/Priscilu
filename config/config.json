@@ -1,0 +1,10 @@
+{
+    "AddTradertoFleaMarket": true,
+    "traderRefreshMin": 1800,
+    "traderRefreshMax": 3600,
+    "debugLogging": false,
+    "randomizeStockAvailable": true,
+    "outOfStockChance": 15,
+    "unlimitedStock:": false,
+    "priceMultiplier": "1.0127"
+}
