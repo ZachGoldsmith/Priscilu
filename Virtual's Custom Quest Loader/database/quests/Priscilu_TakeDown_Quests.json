@@ -92,78 +92,62 @@
       "Started": [],
       "Success": [
         {
-          "value": "15000",
-          "id": "66c16e35c7d17b076ce44f78",
-          "type": "Experience",
-          "index": 0
-        },
-        {
-          "value": "0.03",
+          "value": "0.05",
           "id": "66c16ec373b41a9955745b75",
           "type": "TraderStanding",
           "target": "66c0d4fc713f0ea9c8e7368e",
+          "index": 0
+        },
+        {
+          "value": 7250,
+          "id": "66c16e35c7d17b076ce44f78",
+          "type": "Experience",
           "index": 1
         },
         {
-          "value": "-0.03",
-          "id": "66c16ec44d00a5e0f88aaa97",
-          "type": "TraderStanding",
-          "target": "66c0d4fc713f0ea9c8e7368e",
-          "index": 2
-        },
-        {
-          "value": "75000",
+          "value": "24575",
           "id": "66c16ec688d660d6b414f6cc",
           "type": "Item",
           "target": "66c16ed6f180d0684ae4c69d",
-          "index": 3,
+          "index": 2,
           "findInRaid": true,
           "items": [
             {
               "_id": "66c16ed6f180d0684ae4c69d",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
-                "StackObjectsCount": 75000
+                "StackObjectsCount": 24575
               }
             }
           ]
         },
         {
-          "value": "2",
+          "value": "3",
           "id": "66c16ec6fc17272fbc0788ea",
           "type": "Item",
           "target": "66c16ed647a74fbce36daf67",
-          "index": 4,
+          "index": 3,
           "findInRaid": true,
           "items": [
             {
               "_id": "66c16ed647a74fbce36daf67",
               "_tpl": "5d235b4d86f7742e017bc88a",
               "upd": {
-                "StackObjectsCount": 2
-              }
-            }
-          ]
-        },
-        {
-          "value": "2",
-          "id": "66c16ec648a7ce9ece9816e9",
-          "type": "Item",
-          "target": "66c16ed6abf7fd915e7063fe",
-          "index": 5,
-          "findInRaid": true,
-          "items": [
-            {
-              "_id": "66c16ed6abf7fd915e7063fe",
-              "_tpl": "5734758f24597738025ee253",
-              "upd": {
-                "StackObjectsCount": 2
+                "StackObjectsCount": 3
               }
             }
           ]
         }
       ],
-      "Fail": []
+      "Fail": [
+        {
+          "value": "-0.02",
+          "id": "66c16ec44d00a5e0f88aaa97",
+          "type": "TraderStanding",
+          "target": "66c0d4fc713f0ea9c8e7368e",
+          "index": 0
+        }
+      ]
     },
     "secretQuest": false,
     "side": "Pmc",
@@ -252,47 +236,62 @@
       "Started": [],
       "Success": [
         {
-          "value": "15000",
-          "id": "66c16ee30196d581a9645b0a",
-          "type": "Experience",
+          "value": "0.05",
+          "id": "66c16ec373b41a9955745b75",
+          "type": "TraderStanding",
+          "target": "66c0d4fc713f0ea9c8e7368e",
           "index": 0
         },
         {
-          "value": "100000",
+          "value": 8325,
+          "id": "66c16ee30196d581a9645b0a",
+          "type": "Experience",
+          "index": 1
+        },
+        {
+          "value": "28550",
           "id": "66c16ee3eff388b252038276",
           "type": "Item",
           "target": "66c16ee4fb21f4744af5280a",
-          "index": 1,
+          "index": 2,
           "findInRaid": true,
           "items": [
             {
               "_id": "66c16ee4fb21f4744af5280a",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
-                "StackObjectsCount": 100000
+                "StackObjectsCount": 28550
               }
             }
           ]
         },
         {
-          "value": "1",
-          "id": "66c16ee4520cadacd8ea3626",
+          "value": "3",
+          "id": "66c16ec6fc17272fbc0788ea",
           "type": "Item",
-          "target": "66c16ee5f49bf404f6867402",
-          "index": 2,
+          "target": "66c16ed647a74fbce36daf67",
+          "index": 3,
           "findInRaid": true,
           "items": [
             {
-              "_id": "66c16ee5f49bf404f6867402",
-              "_tpl": "59faff1d86f7746c51718c9c",
+              "_id": "66c16ed647a74fbce36daf67",
+              "_tpl": "5d235b4d86f7742e017bc88a",
               "upd": {
-                "StackObjectsCount": 1
+                "StackObjectsCount": 3
               }
             }
           ]
         }
       ],
-      "Fail": []
+      "Fail": [
+        {
+          "value": "-0.02",
+          "id": "66c16ec44d00a5e0f88aaa97",
+          "type": "TraderStanding",
+          "target": "66c0d4fc713f0ea9c8e7368e",
+          "index": 0
+        }
+      ]
     },
     "secretQuest": false,
     "side": "Pmc",
@@ -381,64 +380,62 @@
       "Started": [],
       "Success": [
         {
-          "value": "19000",
-          "id": "66c16ee9d7b24b1b7068afac",
-          "type": "Experience",
+          "value": "0.05",
+          "id": "66c16ec44d00a5e0f88aaa97",
+          "type": "TraderStanding",
+          "target": "66c0d4fc713f0ea9c8e7368e",
           "index": 0
         },
         {
-          "value": "100000",
+          "value": 9245,
+          "id": "66c16ee9d7b24b1b7068afac",
+          "type": "Experience",
+          "index": 1
+        },
+        {
+          "value": "31200",
           "id": "66c16eea39cdb47087abb1fc",
           "type": "Item",
           "target": "66c16eeb079fe158f8d625ad",
-          "index": 1,
+          "index": 2,
           "findInRaid": true,
           "items": [
             {
               "_id": "66c16eeb079fe158f8d625ad",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
-                "StackObjectsCount": 100000
+                "StackObjectsCount": 31200
               }
             }
           ]
         },
         {
-          "value": "1",
-          "id": "66c16eea15d67dd748bcc9d3",
+          "value": "5",
+          "id": "66c16ec6fc17272fbc0788ea",
           "type": "Item",
-          "target": "66c16eec92e8a99acb2829b0",
-          "index": 2,
+          "target": "66c16ed647a74fbce36daf67",
+          "index": 3,
           "findInRaid": true,
           "items": [
             {
-              "_id": "66c16eec92e8a99acb2829b0",
-              "_tpl": "5a0ea64786f7741707720468",
+              "_id": "66c16ed647a74fbce36daf67",
+              "_tpl": "5d235b4d86f7742e017bc88a",
               "upd": {
-                "StackObjectsCount": 1
-              }
-            }
-          ]
-        },
-        {
-          "value": "1",
-          "id": "66c16eeb125f1d2a8f3eadfc",
-          "type": "Item",
-          "target": "66c16eecf4d765525b08acc4",
-          "index": 2,
-          "findInRaid": true,
-          "items": [
-            {
-              "_id": "66c16eecf4d765525b08acc4",
-              "_tpl": "5c0e6a1586f77404597b4965",
-              "upd": {
-                "StackObjectsCount": 1
+                "StackObjectsCount": 5
               }
             }
           ]
         }
       ],
-      "Fail": []
+      "Fail": [
+        {
+          "value": "-0.02",
+          "id": "66c16ec44d00a5e0f88aaa97",
+          "type": "TraderStanding",
+          "target": "66c0d4fc713f0ea9c8e7368e",
+          "index": 0
+        }
+      ]
     },
     "secretQuest": false,
     "side": "Pmc",
@@ -527,64 +524,62 @@
       "Started": [],
       "Success": [
         {
-          "value": "17000",
-          "id": "66c16ef2bd3e14911a4b0e73",
-          "type": "Experience",
+          "value": "0.05",
+          "id": "66c16ec44d00a5e0f88aaa97",
+          "type": "TraderStanding",
+          "target": "66c0d4fc713f0ea9c8e7368e",
           "index": 0
         },
         {
-          "value": "70000",
+          "value": 10045,
+          "id": "66c16ef2bd3e14911a4b0e73",
+          "type": "Experience",
+          "index": 1
+        },
+        {
+          "value": "32145",
           "id": "66c16ef34b0063eb1b3be29a",
           "type": "Item",
           "target": "66c16ef56530c1a79b8b7251",
-          "index": 1,
+          "index": 2,
           "findInRaid": true,
           "items": [
             {
               "_id": "66c16ef56530c1a79b8b7251",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
-                "StackObjectsCount": 70000
+                "StackObjectsCount": 32145
               }
             }
           ]
         },
         {
-          "value": "1",
-          "id": "66c16ef33a732da20ceaa594",
+          "value": "5",
+          "id": "66c16ec6fc17272fbc0788ea",
           "type": "Item",
-          "target": "66c16ef5f2d01e7926bd63d8",
-          "index": 2,
+          "target": "66c16ed647a74fbce36daf67",
+          "index": 3,
           "findInRaid": true,
           "items": [
             {
-              "_id": "66c16ef5f2d01e7926bd63d8",
-              "_tpl": "59faff1d86f7746c51718c9c",
+              "_id": "66c16ed647a74fbce36daf67",
+              "_tpl": "5d235b4d86f7742e017bc88a",
               "upd": {
-                "StackObjectsCount": 1
-              }
-            }
-          ]
-        },
-        {
-          "value": "1",
-          "id": "66c16ef4c2fd3d64d9952520",
-          "type": "Item",
-          "target": "66c16ef63e2ee78113605742",
-          "index": 2,
-          "findInRaid": true,
-          "items": [
-            {
-              "_id": "66c16ef63e2ee78113605742",
-              "_tpl": "5a0ee34586f774023b6ee092",
-              "upd": {
-                "StackObjectsCount": 1
+                "StackObjectsCount": 5
               }
             }
           ]
         }
       ],
-      "Fail": []
+      "Fail": [
+        {
+          "value": "-0.02",
+          "id": "66c16ec44d00a5e0f88aaa97",
+          "type": "TraderStanding",
+          "target": "66c0d4fc713f0ea9c8e7368e",
+          "index": 0
+        }
+      ]
     },
     "secretQuest": false,
     "side": "Pmc",
@@ -673,24 +668,48 @@
       "Started": [],
       "Success": [
         {
-          "value": "15000",
-          "id": "66c16efcbee004fb31ba5bac",
-          "type": "Experience",
+          "value": "0.05",
+          "id": "66c16ec44d00a5e0f88aaa97",
+          "type": "TraderStanding",
+          "target": "66c0d4fc713f0ea9c8e7368e",
           "index": 0
         },
         {
-          "value": "60000",
+          "value": 11450,
+          "id": "66c16efcbee004fb31ba5bac",
+          "type": "Experience",
+          "index": 1
+        },
+        {
+          "value": "34125",
           "id": "66c16efcdc98093f572c85ec",
           "type": "Item",
           "target": "66c16f015399b597d35d8d19",
-          "index": 1,
+          "index": 2,
           "findInRaid": true,
           "items": [
             {
               "_id": "66c16f015399b597d35d8d19",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
-                "StackObjectsCount": 60000
+                "StackObjectsCount": 34125
+              }
+            }
+          ]
+        },
+        {
+          "value": "5",
+          "id": "66c16ec6fc17272fbc0788ea",
+          "type": "Item",
+          "target": "66c16ed647a74fbce36daf67",
+          "index": 3,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "66c16ed647a74fbce36daf67",
+              "_tpl": "5d235b4d86f7742e017bc88a",
+              "upd": {
+                "StackObjectsCount": 5
               }
             }
           ]
@@ -700,12 +719,12 @@
           "id": "66c16efcb4332a93cf091b95",
           "type": "Item",
           "target": "66c16f0381f5e23a33ea38e9",
-          "index": 2,
+          "index": 4,
           "findInRaid": true,
           "items": [
             {
               "_id": "66c16f0381f5e23a33ea38e9",
-              "_tpl": "609e860ebd219504d8507525",
+              "_tpl": "5c0e53c886f7747fa54205c7",
               "upd": {
                 "StackObjectsCount": 1
               }
@@ -713,7 +732,15 @@
           ]
         }
       ],
-      "Fail": []
+      "Fail": [
+        {
+          "value": "-0.02",
+          "id": "66c16ec44d00a5e0f88aaa97",
+          "type": "TraderStanding",
+          "target": "66c0d4fc713f0ea9c8e7368e",
+          "index": 0
+        }
+      ]
     },
     "secretQuest": false,
     "side": "Pmc",
@@ -831,27 +858,34 @@
       "Started": [],
       "Success": [
         {
-          "id": "5fe305df8a67d12f5f24c8aa",
+          "id": "60c89c0c80b2027f403dd992",
           "index": 0,
+          "target": "66c0d4fc713f0ea9c8e7368e",
+          "type": "TraderStanding",
+          "value": "0.10"
+        },
+        {
+          "id": "5fe305df8a67d12f5f24c8aa",
+          "index": 1,
           "type": "Experience",
-          "value": "13234"
+          "value": 13235
         },
         {
           "findInRaid": true,
           "id": "5fe305d9c646836c3b6fc562",
-          "index": 1,
+          "index": 2,
           "items": [
             {
               "_id": "6492e44bf4287b13040fca56",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
-                "StackObjectsCount": 250000
+                "StackObjectsCount": 36545
               }
             }
           ],
           "target": "6492e44bf4287b13040fca56",
           "type": "Item",
-          "value": "250000"
+          "value": "36545"
         },
         {
           "findInRaid": true,
@@ -869,96 +903,6 @@
           "target": "6492e44bf4287b13040fca46",
           "type": "Item",
           "value": "1"
-        },
-        {
-          "findInRaid": true,
-          "id": "60cb467f7c496e588343a193",
-          "index": 3,
-          "items": [
-            {
-              "_id": "0418002634926886040c0170",
-              "_tpl": "57838ad32459774a17445cd2",
-              "upd": {
-                "FireMode": {
-                  "FireMode": "single"
-                },
-                "Repairable": {
-                  "Durability": 100,
-                  "MaxDurability": 100
-                }
-              }
-            },
-            {
-              "_id": "0418002634119220882cbaae",
-              "_tpl": "5dff8db859400025ea5150d4",
-              "slotId": "mod_mount_000",
-              "parentId": "0418002634926886040c0170"
-            },
-            {
-              "_id": "041800263470836644168c3b",
-              "_tpl": "5c07dd120db834001c39092d",
-              "slotId": "mod_scope",
-              "parentId": "0418002634119220882cbaae"
-            },
-            {
-              "_id": "041800263458158688313880",
-              "_tpl": "57838f9f2459774a150289a0",
-              "slotId": "mod_magazine",
-              "parentId": "0418002634926886040c0170"
-            },
-            {
-              "_id": "041800263424891074481e00",
-              "_tpl": "57c44dd02459772d2e0ae249",
-              "slotId": "mod_muzzle",
-              "parentId": "0418002634926886040c0170"
-            },
-            {
-              "_id": "0418002634337674463b4537",
-              "_tpl": "59eb7ebe86f7740b373438ce",
-              "slotId": "mod_mount_000",
-              "parentId": "041800263424891074481e00"
-            },
-            {
-              "_id": "0418002634565589058a2ad5",
-              "_tpl": "56def37dd2720bec348b456a",
-              "slotId": "mod_tactical_001",
-              "parentId": "0418002634337674463b4537"
-            },
-            {
-              "_id": "04180026348682726212d37b",
-              "_tpl": "5c1cd46f2e22164bef5cfedb",
-              "slotId": "mod_foregrip",
-              "parentId": "0418002634337674463b4537"
-            },
-            {
-              "_id": "04180026344531341919e6d6",
-              "_tpl": "57c44f4f2459772d2c627113",
-              "slotId": "mod_reciever",
-              "parentId": "0418002634926886040c0170"
-            },
-            {
-              "_id": "041800263463429377765538",
-              "_tpl": "578395e82459774a0e553c7b",
-              "slotId": "mod_stock",
-              "parentId": "0418002634926886040c0170"
-            },
-            {
-              "_id": "0418002634187547370b0fdc",
-              "_tpl": "6130ca3fd92c473c77020dbd",
-              "slotId": "mod_charge",
-              "parentId": "0418002634926886040c0170"
-            }
-          ],
-          "target": "0418002634926886040c0170",
-          "type": "Item",
-          "value": "1"
-        },
-        {
-          "id": "60c89c0c80b2027f403dd992",
-          "index": 5,
-          "target": "66c0d4fc713f0ea9c8e7368e",
-          "type": "TraderStanding",
-          "value": "0.15"
         }
       ]
     },
@@ -1234,170 +1178,34 @@
       "Started": [],
       "Success": [
         {
-          "id": "66c16f0eb4b9d6d25c61f65b",
+          "id": "66c16f1232606ad61cc29500",
           "index": 0,
+          "target": "66c0d4fc713f0ea9c8e7368e",
+          "type": "TraderStanding",
+          "value": "0.02"
+        },
+        {
+          "id": "66c16f0eb4b9d6d25c61f65b",
+          "index": 1,
           "type": "Experience",
-          "value": "10000"
+          "value": 5765
         },
         {
           "findInRaid": true,
           "id": "66c16f0eb41c50aedc353ede",
-          "index": 1,
+          "index": 2,
           "items": [
             {
               "_id": "66c16f0fb61a68476164fa92",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
-                "StackObjectsCount": 50000
+                "StackObjectsCount": 12570
               }
             }
           ],
           "target": "66c16f0fb61a68476164fa92",
           "type": "Item",
-          "value": "50000"
-        },
-        {
-          "findInRaid": true,
-          "id": "66c16f0fcc204115feb67fe9",
-          "index": 2,
-          "items": [
-            {
-              "_id": "66c16f102cb6feea824300a9",
-              "_tpl": "601949593ae8f707c4608daa",
-              "upd": {
-                "StackObjectsCount": 200
-              }
-            }
-          ],
-          "target": "66c16f102cb6feea824300a9",
-          "type": "Item",
-          "value": "200"
-        },
-        {
-          "findInRaid": true,
-          "id": "66c16f11730d87b932de0e13",
-          "index": 3,
-          "items": [
-            {
-              "_id": "0417180200474001254c80bd",
-              "_tpl": "5d43021ca4b9362eab4b5e25",
-              "upd": {
-                "StackObjectsCount": 1
-              }
-            },
-            {
-              "_id": "0417180200879441755d229f",
-              "_tpl": "5b07db875acfc40dc528a5f6",
-              "slotId": "mod_pistol_grip",
-              "parentId": "0417180200474001254c80bd"
-            },
-            {
-              "_id": "0417180200824626953c994a",
-              "_tpl": "59c1383d86f774290a37e0ca",
-              "slotId": "mod_magazine",
-              "parentId": "0417180200474001254c80bd"
-            },
-            {
-              "_id": "04171802004005590885d68a",
-              "_tpl": "55d355e64bdc2d962f8b4569",
-              "slotId": "mod_reciever",
-              "parentId": "0417180200474001254c80bd"
-            },
-            {
-              "_id": "0417180200781434974e13cb",
-              "_tpl": "570fd721d2720bc5458b4596",
-              "slotId": "mod_scope",
-              "parentId": "04171802004005590885d68a"
-            },
-            {
-              "_id": "041718020036577466492256",
-              "_tpl": "5c0e2f94d174af029f650d56",
-              "slotId": "mod_barrel",
-              "parentId": "04171802004005590885d68a"
-            },
-            {
-              "_id": "0417180200940668627eb4f9",
-              "_tpl": "59bffc1f86f77435b128b872",
-              "slotId": "mod_muzzle",
-              "parentId": "041718020036577466492256"
-            },
-            {
-              "_id": "0417180200522990467375eb",
-              "_tpl": "59bffbb386f77435b379b9c2",
-              "slotId": "mod_muzzle",
-              "parentId": "0417180200940668627eb4f9"
-            },
-            {
-              "_id": "041718020040002062601b5f",
-              "_tpl": "5d00ec68d7ad1a04a067e5be",
-              "slotId": "mod_gas_block",
-              "parentId": "041718020036577466492256"
-            },
-            {
-              "_id": "0417180200691224949e1075",
-              "_tpl": "5d122e7bd7ad1a07102d6d7f",
-              "slotId": "mod_handguard",
-              "parentId": "04171802004005590885d68a"
-            },
-            {
-              "_id": "04171802007506055804baaa",
-              "_tpl": "5d124c01d7ad1a115c7d59fb",
-              "slotId": "mod_mount_000",
-              "parentId": "0417180200691224949e1075"
-            },
-            {
-              "_id": "0417180200205526687737e9",
-              "_tpl": "5d123a3cd7ad1a004e476058",
-              "slotId": "mod_mount_001",
-              "parentId": "0417180200691224949e1075"
-            },
-            {
-              "_id": "0417180200306211951612a0",
-              "_tpl": "637f57c532b66e7e320a6676",
-              "slotId": "mod_handguard",
-              "parentId": "0417180200691224949e1075"
-            },
-            {
-              "_id": "0417180200918042888e554a",
-              "_tpl": "5d123b7dd7ad1a004f01b262",
-              "slotId": "mod_foregrip",
-              "parentId": "0417180200306211951612a0"
-            },
-            {
-              "_id": "04171802007762643980bf68",
-              "_tpl": "6272379924e29f06af4d5ecb",
-              "slotId": "mod_tactical_003",
-              "parentId": "0417180200306211951612a0"
-            },
-            {
-              "_id": "04171802002420725684a3dc",
-              "_tpl": "5c0faeddd174af02a962601f",
-              "slotId": "mod_stock",
-              "parentId": "0417180200474001254c80bd"
-            },
-            {
-              "_id": "04171802002454270849210d",
-              "_tpl": "6529370c405a5f51dd023db8",
-              "slotId": "mod_stock_000",
-              "parentId": "04171802002420725684a3dc"
-            },
-            {
-              "_id": "04171802008014682121f2b3",
-              "_tpl": "5f633ff5c444ce7e3c30a006",
-              "slotId": "mod_charge",
-              "parentId": "0417180200474001254c80bd"
-            }
-          ],
-          "target": "0417180200474001254c80bd",
-          "type": "Item",
-          "value": "1"
-        },
-        {
-          "id": "66c16f1232606ad61cc29500",
-          "index": 4,
-          "target": "66c0d4fc713f0ea9c8e7368e",
-          "type": "TraderStanding",
-          "value": "0.02"
+          "value": "12570"
         }
       ]
     },

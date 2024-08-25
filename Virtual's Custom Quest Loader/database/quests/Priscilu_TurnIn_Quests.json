@@ -118,17 +118,17 @@
       "Started": [],
       "Success": [
         {
-          "id": "66c16f59cfad05ef1862c966",
-          "index": 0,
-          "type": "Experience",
-          "value": 3900
-        },
-        {
           "id": "66c16f5a06975864619a6a76",
-          "index": 1,
+          "index": 0,
           "target": "66c0d4fc713f0ea9c8e7368e",
           "type": "TraderStanding",
           "value": "0.03"
+        },
+        {
+          "id": "66c16f59cfad05ef1862c966",
+          "index": 1,
+          "type": "Experience",
+          "value": 3870
         },
         {
           "findInRaid": true,
@@ -139,29 +139,31 @@
               "_id": "66c16f5c99b2a77795971507",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
-                "StackObjectsCount": 50000
+                "StackObjectsCount": 17650
               }
             }
           ],
           "target": "66c16f5c99b2a77795971507",
           "type": "Item",
-          "value": "50000"
+          "value": "17650"
         },
         {
           "findInRaid": true,
-          "id": "66c16f5bbe9858e397147ff9",
+          "id": "66c16f21a975a15917d923c1",
           "index": 3,
           "items": [
             {
-              "_id": "661f33776b5151c024011d2e",
-              "_tpl": "59faff1d86f7746c51718c9c",
+              "_comment": "Priscilu Snack Pouch",
+              "_id": "66c16f239673e8287e90e065",
+              "_tpl": "66b82bdbcf1fcc387f68dc20",
               "upd": {
                 "StackObjectsCount": 1
               }
             }
           ],
-          "target": "661f33776b5151c024011d2e",
+          "target": "66c16f239673e8287e90e065",
           "type": "Item",
+          "unknown": true,
           "value": "1"
         }
       ]
@@ -266,17 +268,17 @@
       "Started": [],
       "Success": [
         {
-          "id": "66c16f61435cb9182b77f1df",
-          "index": 0,
-          "type": "Experience",
-          "value": 3900
-        },
-        {
           "id": "66c16f61ed46bd01750710bb",
           "index": 1,
           "target": "66c0d4fc713f0ea9c8e7368e",
           "type": "TraderStanding",
           "value": "0.03"
+        },
+        {
+          "id": "66c16f61435cb9182b77f1df",
+          "index": 0,
+          "type": "Experience",
+          "value": 4650
         },
         {
           "findInRaid": true,
@@ -287,142 +289,31 @@
               "_id": "66c16f63fa413853accce536",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
-                "StackObjectsCount": 45000
+                "StackObjectsCount": 22125
               }
             }
           ],
           "target": "66c16f63fa413853accce536",
           "type": "Item",
-          "value": "45000"
+          "value": "22125"
         },
         {
           "findInRaid": true,
-          "id": "66c16f62f236a33da2f00738",
+          "id": "66c16f21a975a15917d923c1",
           "index": 3,
           "items": [
             {
-              "_id": "d7962a0006ad9f4b5a605060",
-              "_tpl": "587e02ff24597743df3deaeb",
+              "_comment": "Priscilu Ammo Box",
+              "_id": "66c16f239673e8287e90e065",
+              "_tpl": "66b82bdb8924e34953e92f93",
               "upd": {
-                "FireMode": {
-                  "FireMode": "single"
-                },
-                "Repairable": {
-                  "Durability": 100,
-                  "MaxDurability": 100
-                }
+                "StackObjectsCount": 1
               }
-            },
-            {
-              "_id": "af3c2e47708a892ba4990d92",
-              "_tpl": "5d0236dad7ad1a0940739d29",
-              "parentId": "d7962a0006ad9f4b5a605060",
-              "slotId": "mod_stock"
-            },
-            {
-              "_id": "3a61fe3883215429284b2380",
-              "_tpl": "634eff66517ccc8a960fc735",
-              "parentId": "d7962a0006ad9f4b5a605060",
-              "slotId": "mod_barrel"
-            },
-            {
-              "_id": "1f7c5c2e1332ab0fae2c0aff",
-              "_tpl": "5c5970672e221602b21d7855",
-              "parentId": "d7962a0006ad9f4b5a605060",
-              "slotId": "mod_magazine"
-            },
-            {
-              "_id": "329b99e8a7a6cd8cf1b34ea4",
-              "_tpl": "6415c694da439c6a97048b56",
-              "parentId": "d7962a0006ad9f4b5a605060",
-              "slotId": "mod_reciever"
-            },
-            {
-              "_id": "76cb645992f2a79a5847e147",
-              "_tpl": "59e0d99486f7744a32234762",
-              "parentId": "d7962a0006ad9f4b5a605060",
-              "slotId": "patron_in_weapon"
-            },
-            {
-              "_id": "39b9738a4f42e198cae8b532",
-              "_tpl": "5e2192a498a36665e8337386",
-              "parentId": "af3c2e47708a892ba4990d92",
-              "slotId": "mod_pistol_grip"
-            },
-            {
-              "_id": "425851a6179c794823edfc5e",
-              "_tpl": "56def37dd2720bec348b456a",
-              "parentId": "af3c2e47708a892ba4990d92",
-              "slotId": "mod_tactical_001",
-              "upd": {
-                "Light": {
-                  "IsActive": true,
-                  "SelectedMode": 0
-                }
-              }
-            },
-            {
-              "_id": "0a02ad74ba84a654fb5dbbbc",
-              "_tpl": "653ed132896b99b40a0292e6",
-              "parentId": "af3c2e47708a892ba4990d92",
-              "slotId": "mod_stock"
-            },
-            {
-              "_id": "35cc337aad223229b59c4915",
-              "_tpl": "634f05a21f9f536910079b56",
-              "parentId": "3a61fe3883215429284b2380",
-              "slotId": "mod_mount_000"
-            },
-            {
-              "_id": "f70737104c646deafa5f3b0e",
-              "_tpl": "593d1fa786f7746da62d61ac",
-              "parentId": "3a61fe3883215429284b2380",
-              "slotId": "mod_mount_001"
-            },
-            {
-              "_id": "10e6ecff61e5f610a6a8c7f2",
-              "_tpl": "593d490386f7745ee97a1555",
-              "parentId": "3a61fe3883215429284b2380",
-              "slotId": "mod_muzzle"
-            },
-            {
-              "_id": "3eb33c9497a1ee0c1098e86d",
-              "_tpl": "64b7af734b75259c590fa895",
-              "parentId": "1f7c5c2e1332ab0fae2c0aff",
-              "slotId": "cartridges"
-            },
-            {
-              "_id": "f4f050e315b583c64fca41e0",
-              "_tpl": "570fd721d2720bc5458b4596",
-              "parentId": "329b99e8a7a6cd8cf1b34ea4",
-              "slotId": "mod_scope",
-              "upd": {
-                "Sight": {
-                  "ScopesCurrentCalibPointIndexes": [
-                    0
-                  ],
-                  "ScopesSelectedModes": [
-                    0
-                  ],
-                  "SelectedScope": 0
-                }
-              }
-            },
-            {
-              "_id": "d20391a30d9347b81072cbbb",
-              "_tpl": "634f02d7517ccc8a960fc744",
-              "parentId": "35cc337aad223229b59c4915",
-              "slotId": "mod_gas_block"
-            },
-            {
-              "_id": "54502542e4da99184799dd33",
-              "_tpl": "634f08a21f9f536910079b5a",
-              "parentId": "d20391a30d9347b81072cbbb",
-              "slotId": "mod_mount_000"
             }
           ],
-          "target": "d7962a0006ad9f4b5a605060",
+          "target": "66c16f239673e8287e90e065",
           "type": "Item",
+          "unknown": true,
           "value": "1"
         }
       ]

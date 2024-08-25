@@ -119,7 +119,7 @@
           "index": 0,
           "target": "66c0d4fc713f0ea9c8e7368e",
           "type": "TraderStanding",
-          "value": "-0.25"
+          "value": "-0.02"
         }
       ],
       "Started": [
@@ -143,10 +143,17 @@
       ],
       "Success": [
         {
+          "id": "66c16f246200a14758476c74",
+          "index": 5,
+          "target": "66c0d4fc713f0ea9c8e7368e",
+          "type": "TraderStanding",
+          "value": "0.05"
+        },
+        {
           "id": "66c16f1e64fdd835567d234b",
           "index": 0,
           "type": "Experience",
-          "value": "6500"
+          "value": 3120
         },
         {
           "findInRaid": true,
@@ -157,13 +164,13 @@
               "_id": "66c16f2221b634f071508edf",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
-                "StackObjectsCount": 45000
+                "StackObjectsCount": 22450
               }
             }
           ],
           "target": "66c16f2221b634f071508edf",
           "type": "Item",
-          "value": "45000"
+          "value": "22450"
         },
         {
           "findInRaid": true,
@@ -171,8 +178,9 @@
           "index": 4,
           "items": [
             {
+              "_comment": "Priscilu Med Pouch",
               "_id": "66c16f239673e8287e90e065",
-              "_tpl": "5d235bb686f77443f4331278",
+              "_tpl": "66b82bdbe4a0c2fc78aab505",
               "upd": {
                 "StackObjectsCount": 1
               }
@@ -182,13 +190,6 @@
           "type": "Item",
           "unknown": true,
           "value": "1"
-        },
-        {
-          "id": "66c16f246200a14758476c74",
-          "index": 5,
-          "target": "66c0d4fc713f0ea9c8e7368e",
-          "type": "TraderStanding",
-          "value": "0.04"
         }
       ]
     },
@@ -322,7 +323,7 @@
           "index": 0,
           "target": "66c0d4fc713f0ea9c8e7368e",
           "type": "TraderStanding",
-          "value": "-0.25"
+          "value": "-0.02"
         }
       ],
       "Started": [
@@ -346,52 +347,53 @@
       ],
       "Success": [
         {
-          "id": "66c16f4437375bff80bd27d6",
+          "id": "66c16f45773f3906422f329b",
           "index": 0,
+          "target": "66c0d4fc713f0ea9c8e7368e",
+          "type": "TraderStanding",
+          "value": "0.05"
+        },
+        {
+          "id": "66c16f4437375bff80bd27d6",
+          "index": 1,
           "type": "Experience",
-          "value": "6500"
+          "value": 4100
         },
         {
           "findInRaid": true,
           "id": "66c16f449e06ccf8c2d95406",
-          "index": 1,
+          "index": 2,
           "items": [
             {
               "_id": "66c16f46cc79a68ce2982034",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
-                "StackObjectsCount": 35000
+                "StackObjectsCount": 23220
               }
             }
           ],
           "target": "66c16f46cc79a68ce2982034",
           "type": "Item",
-          "value": "35000"
+          "value": "23220"
         },
         {
           "findInRaid": true,
-          "id": "66c16f45032500ac4143cab1",
-          "index": 4,
+          "id": "66c16f21a975a15917d923c1",
+          "index": 3,
           "items": [
             {
-              "_id": "66c16f47d9c4f52bc6e4dfc3",
-              "_tpl": "5e2af55f86f7746d4159f07c",
+              "_comment": "Priscilu Tool Box",
+              "_id": "66c16f239673e8287e90e065",
+              "_tpl": "66b82bdba7d9dd0a753eadf2",
               "upd": {
                 "StackObjectsCount": 1
               }
             }
           ],
-          "target": "66c16f47d9c4f52bc6e4dfc3",
+          "target": "66c16f239673e8287e90e065",
           "type": "Item",
           "unknown": true,
           "value": "1"
-        },
-        {
-          "id": "66c16f45773f3906422f329b",
-          "index": 5,
-          "target": "66c0d4fc713f0ea9c8e7368e",
-          "type": "TraderStanding",
-          "value": "0.04"
         }
       ]
     },
