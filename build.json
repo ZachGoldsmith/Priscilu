@@ -4,11 +4,11 @@
     "GitStatus": false,
     "ContainPlugin": false,
     "PluginFileName": "",
-    "PluginPath": "G:/SPT - 3.9.5/BepInEx/plugins",
+    "PluginPath": "G:/SPT - 3.9/BepInEx/plugins",
     "CopyBundles": true,
     "BuildZip": true,
     "BuildDir": "./build",
-    "PathToGame": "G:/SPT - 3.9.5",
+    "PathToGame": "G:/SPT - 3.9",
     "CopyToGame": true,
     "StartServer": false,
     "StartDelay": 0,
@@ -28,6 +28,13 @@
         "templates/",
         "TaskMongoIDs.vb",
         "db/templates/",
-        "images/"
+        "images/",
+        "PrisciluNewPicture.png",
+        "TaskMongoIDs.vb",
+        "QuestInfo.md",
+        "AddedAssortItems.md",
+        "AssortLoyaltyLevels.md",
+        "temp/",
+        "originalVCQLTasks/"
     ]
 }

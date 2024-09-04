@@ -93,4 +93,8 @@ export class PrisciluHelper {
         dbTables.traders[baseJson._id].dialogue.insuranceExpired = dialogues.insuranceExpired;
         dbTables.traders[baseJson._id].dialogue.insuranceComplete = dialogues.insuranceComplete;
     }
+
+    public addQuestAssorts(baseJson: any, questAssort: any, dbTables: IDatabaseTables): void {
+        dbTables.traders[baseJson._id].questassort = questAssort
+    }
 }

@@ -67,6 +67,7 @@ import { ConfigsModelBase } from "./model/ConfigsModel";
 import { ILocaleGlobalBase } from "@spt/models/spt/server/ILocaleBase";
 import type { DynamicRouterModService } from "@spt/services/mod/dynamicRouter/DynamicRouterModService";
 import { DatabaseService } from "@spt/services/DatabaseService";
+import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables"
 import { PrisciluHelper } from "./prisciluHelper";
 import { VFS } from "@spt/utils/VFS";
 import { jsonc } from "jsonc";
@@ -74,6 +75,7 @@ import { jsonc } from "jsonc";
 import baseJson from "../db/assort/Priscilu/base.json";
 import assortJson from "../db/assort/Priscilu/assort.json";
 import dialogues = require("../db/assort/Priscilu/dialogue.json");
+import questAssort from "../db/assort/Priscilu/questassort.json"
 
 import path from "node:path";
 
@@ -107,6 +109,7 @@ class Priscilu implements IPreSptLoadMod, IPostDBLoadMod {
 
     public mod: string;
     public logger: ILogger;
+    public tables: IDatabaseTables
     private prisciluHelper: PrisciluHelper;
 
     private static vfs = container.resolve<VFS>("VFS");
@@ -190,6 +193,8 @@ class Priscilu implements IPreSptLoadMod, IPostDBLoadMod {
         const jsonUtil: JsonUtil = container.resolve<JsonUtil>("JsonUtil");
         const assortPriceTable = assortJson.barter_scheme;
         const assortItemTable = assortJson.items;
+        const tables = databaseService.getTables();
+        const newAssort = assortJson
 
         if (Priscilu.config.randomizeStockAvailable) { this.randomizeStockAvailable(assortItemTable); }
         if (Priscilu.config.unlimitedStock) { this.setUnlimitedStock(assortItemTable); }
@@ -209,13 +214,12 @@ class Priscilu implements IPreSptLoadMod, IPostDBLoadMod {
             this.setRealismDetection(realismCheck);
         }
 
-        const newAssort = assortJson
-
-        const tables = databaseService.getTables();
 
         this.prisciluHelper.addTraderToDb(baseJson, tables, jsonUtil, newAssort);
         this.prisciluHelper.addTraderToLocales(baseJson, tables, baseJson.name, "66c0d4fc713f0ea9c8e7368e", baseJson.nickname, baseJson.location, "A distinguished gunsmith who smuggles some of the best weapons and equipment into Tarkov. Also he is excellent in repairing weapons and armor");
         this.prisciluHelper.addDialogues(baseJson, dialogues, tables);
+        this.prisciluHelper.addQuestAssorts(baseJson, questAssort, tables);
+
 
         const importerUtil = container.resolve<ImporterUtil>("ImporterUtil");
         const modImporter = container.resolve<PreSptModLoader>("PreSptModLoader");
@@ -236,13 +240,13 @@ class Priscilu implements IPreSptLoadMod, IPostDBLoadMod {
                 locale[(item + " Name")] = configs.locales['itemsdescription'][item].Name
                 locale[(item + " ShortName")] = configs.locales['itemsdescription'][item].ShortName
                 locale[(item + " Description")] = configs.locales['itemsdescription'][item].Description
-
-                // Fetch Trader Information
-                for (const description in configs.locales["Priscilu"]) {
-                    locale[description] = configs.locales["Priscilu"][description]
-                }
             }
 
+
+            // Fetch Trader Information
+            for (const description in configs.locales["Priscilu"]) {
+                locale[description] = configs.locales["Priscilu"][description]
+            }
         }
 
         // Those Random Messages you saw earlier - One pops up now.
@@ -335,6 +339,7 @@ class Priscilu implements IPreSptLoadMod, IPostDBLoadMod {
 
 // It makes stuff work
 interface Config {
+    tables: any;
     randomizeStockAvailable: boolean,
     outOfStockChance: number,
     traderRefreshMin: number,
