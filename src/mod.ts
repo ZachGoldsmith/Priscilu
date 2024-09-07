@@ -190,6 +190,7 @@ class Priscilu implements IPreSptLoadMod, IPostDBLoadMod {
         const start = performance.now();
 
         const databaseService: DatabaseService = container.resolve<DatabaseService>("DatabaseService");
+        const configServer = container.resolve<ConfigServer>("ConfigServer");
         const jsonUtil: JsonUtil = container.resolve<JsonUtil>("JsonUtil");
         const assortPriceTable = assortJson.barter_scheme;
         const assortItemTable = assortJson.items;
@@ -249,9 +250,14 @@ class Priscilu implements IPreSptLoadMod, IPostDBLoadMod {
             }
         }
 
+        // Set Insurance Return Percentage
+        const insuranceConfig = container.resolve<ConfigServer>("ConfigServer").getConfig(ConfigTypes.INSURANCE)
+        const traderID = [baseJson._id];
+        insuranceConfig.returnChancePercent[traderID] = 80;
+        if (Priscilu.config.debugLogging) { this.logger.logWithColor(`[${this.mod}] Insurance Return Percentage set to: ${insuranceConfig.returnChancePercent[traderID]}`, LogTextColor.MAGENTA); }
+
         // Those Random Messages you saw earlier - One pops up now.
         this.logger.logWithColor(`[${this.mod}] ${this.PrisciluLoadMessages()}`, LogTextColor.MAGENTA);
-
 
         // The Sloth is THIS slow
         const timeTaken = performance.now() - start;
@@ -283,7 +289,7 @@ class Priscilu implements IPreSptLoadMod, IPostDBLoadMod {
                 else {
                     const itemID = assortItemTable[item]._id;
                     const originalStock = assortItemTable[item].upd.StackObjectsCount;
-                    const newStock = randomUtil.randInt(2, (originalStock * 2));
+                    const newStock = randomUtil.randInt(3, (originalStock * 2));
                     assortItemTable[item].upd.StackObjectsCount = newStock;
 
                     if (Priscilu.config.debugLogging) { this.logger.log(`[${this.mod}] Item: [${itemID}] Stock Count changed to: [${newStock}]`, "cyan"); }
